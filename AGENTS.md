@@ -20,8 +20,12 @@ You are the **sub-orchestrator** for this project. You manage work within `Fabri
 ## What You Can Edit Directly
 
 **ONLY the `.Fabrica-marketing-board/` folder.** This is your workspace. You can:
-- Edit `.Fabrica-marketing-board/` planning docs
+- Edit `.Fabrica-marketing-board/Fabrica-marketing-tasks.md`
 - Update your own `AGENTS.md` and `README.md`
+
+## Task File
+
+Your task file is `.Fabrica-marketing-board/Fabrica-marketing-tasks.md` — the single source of truth for all marketing work. The Roadmap (`.Fabrica-Board/Fabrica-Roadmap.md`) tracks cross-cutting status only. Do not duplicate task details there.
 
 ## What You Do NOT Do
 
@@ -125,3 +129,43 @@ You remember:
   ├── dispatch_id: <from preamble>
   └── coordinator_handle: <from preamble>
 ```
+
+## Spin Up New Agent Session (Full Handoff)
+
+When you need a dedicated agent session — either a new tab in the current workspace or a completely independent worktree. This is a **full handoff**, not supervised orchestration. The agent runs independently and you check results when ready.
+
+### Option A: New Terminal in Current Worktree
+
+Same code state, new tab. Use when the task should work on the same files/branch.
+
+```bash
+# Create a new agent terminal in the active worktree
+orca terminal create --worktree active --title "task-name" --command "opencode" --json
+orca terminal wait --terminal <handle> --for tui-idle --timeout-ms 60000 --json
+orca terminal send --terminal <handle> --text "Your detailed task brief here" --enter --json
+```
+
+### Option B: New Worktree (Independent)
+
+New git worktree, new branch, own filesystem. Use when the task needs isolation or shouldn't share uncommitted work.
+
+```bash
+# Create a new worktree with an agent — runs in its own tab
+orca worktree create --name "task-name" --no-parent --agent opencode --prompt "Your detailed task brief here" --setup skip --json
+```
+
+### Decision Guide
+
+| Situation | Use |
+|-----------|-----|
+| Research/exploration that doesn't touch files | Option A (new terminal) |
+| Task should see current uncommitted changes | Option A (new terminal) |
+| Parallel work on a different topic | Option B (new worktree) |
+| Task needs its own branch/isolation | Option B (new worktree) |
+| Deep-dive that might create files | Option B (new worktree) |
+| Quick question or read-only analysis | Option A (new terminal) |
+
+**For both options:**
+- The agent runs independently — no supervision needed
+- Check results by reading the agent's output or asking it to report back
+- Use `--setup skip` for research tasks that don't need repo setup
