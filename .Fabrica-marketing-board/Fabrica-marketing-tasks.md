@@ -6,6 +6,7 @@
 
 ## Status Legend
 
+- **VERIFY** — implemented, needs verification
 - **DONE** — implemented and verified
 - **PARTIAL** — partially implemented
 - **TODO** — planned, not started
@@ -15,50 +16,58 @@
 
 ## Brand & Positioning
 
+> **PLANNING MODE** — Plan and refine only. Do not execute.
+
 | # | Task | Status | Notes |
 |---|------|--------|-------|
-| M1 | Finalize brand guidelines (voice, tone, visual) | **TODO** | Forge/foundry metaphor, "The Next AI Exit" |
-| M2 | Competitor landscape doc | **TODO** | |
-| M3 | positioning statement / one-pager | **TODO** | |
+| M1 | Finalize brand guidelines (voice, tone, visual) | **PLANNING** | Forge/foundry metaphor, "The Next AI Exit" |
+| M2 | Competitor landscape doc | **PLANNING** | |
+| M3 | positioning statement / one-pager | **PLANNING** | |
 
 ---
 
 ## Launch Materials
 
+> **PLANNING MODE** — Plan and refine only. Do not execute.
+
 | # | Task | Status | Notes |
 |---|------|--------|-------|
-| M4 | Launch blog post | **TODO** | |
-| M5 | Product Hunt listing copy + assets | **TODO** | |
-| M6 | Hacker News "Show HN" post | **TODO** | |
-| M7 | Press kit (logo, screenshots, descriptions) | **TODO** | |
-| M8 | Email launch sequence | **TODO** | |
+| M4 | Launch blog post | **PLANNING** | |
+| M5 | Product Hunt listing copy + assets | **PLANNING** | |
+| M6 | Hacker News "Show HN" post | **PLANNING** | |
+| M7 | Press kit (logo, screenshots, descriptions) | **PLANNING** | |
+| M8 | Email launch sequence | **PLANNING** | |
 
 ---
 
 ## Content
 
+> **PLANNING MODE** — Plan and refine only. Do not execute.
+
 | # | Task | Status | Notes |
 |---|------|--------|-------|
-| M9 | Social media content calendar | **TODO** | |
-| M10 | Twitter/X thread templates | **TODO** | |
-| M11 | Founder story / origin post | **TODO** | |
+| M9 | Social media content calendar | **PLANNING** | |
+| M10 | Twitter/X thread templates | **PLANNING** | |
+| M11 | Founder story / origin post | **PLANNING** | |
 
 ---
 
 ## Early Access
 
+> **PLANNING MODE** — Plan and refine only. Do not execute.
+
 | # | Task | Status | Notes |
 |---|------|--------|-------|
-| M12 | Early access nurture emails | **TODO** | Triggered by Supabase signup |
-| M13 | Waitlist page copy | **TODO** | |
+| M12 | Early access nurture emails | **PLANNING** | Triggered by Supabase signup |
+| M13 | Waitlist page copy | **PLANNING** | |
 
 ---
 
-## What's Already Done
+## What Needs Verification
 
-- [x] Brand voice defined (forge/foundry, command-center)
-- [x] Tagline: "The Next AI Exit"
-- [x] Audience: founders, solo builders, lean teams
+- [~] Brand voice defined (forge/foundry, command-center)
+- [~] Tagline: "The Next AI Exit"
+- [~] Audience: founders, solo builders, lean teams
 
 ---
 
