@@ -692,5 +692,21 @@ _Created: Aug 2026_
 
 ---
 
+## Session Ledger
+
+> Tracks orchestration sessions and workers for this task file. Updated when sessions are created, released, or worktrees merged.
+
+| Session Handle | Type | Task/Group | Status | Created | Worktree Branch | Merged |
+|---------------|------|-----------|--------|---------|----------------|--------|
+| `term_f667dbf4-72e5-44c5-87af-d8519f90f3e9` | orchestrator | marketing-orchestrator | **active** | Aug 2026 | `main` (Fabrica-marketing/) | — |
+
+**Rules:**
+- Only the main orchestrator creates sessions in this ledger
+- Workers are released after review
+- Worktrees are merged immediately after approval
+- Never leave orphaned sessions
+
+---
+
 _Plan created: Aug 2026_
 _Updated: Aug 2026_
