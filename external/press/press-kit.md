@@ -104,35 +104,26 @@ or generic "tech" fonts.
 
 ---
 
+#### Signature visual element: Forge Pulse
+
+Every major visual touchpoint includes the **Forge Pulse**: a subtle animated ring or heat-ripple in Molten Orange (`#E8590C`) that appears on any active or running agent card. It communicates that work is alive and in motion, providing instant brand recall without visual clutter.
+
+---
+
 ## 2. Company Boilerplate
 
 ### Short (one sentence)
 
-**Fabrica is the command center for founders who want to direct specialized AI
-agents across business and coding work — without losing visibility, approval,
-or control.**
+**Fabrica is the desktop platform for founders and operators to manage Claude Code, Cursor, Devin & CLI agents with a Slack-style channel interface, visible approval gates, hard budget limits, and 24/7 operations. Event-driven UI that adapts to how you work.**
 
 ### Medium (two–three sentences)
 
-**Fabrica is a command center for founders who need work moving in parallel,
-without losing visibility, approval, or control over what their agents do.
-Assign a clear brief, keep tasks visible, set approval gates and budgets, then
-review real output before it moves forward. It is built for founders, solo
-builders, and lean teams who want more capacity without handing over judgment.**
+**Fabrica is a desktop platform that manages specialist CLI agents across software engineering and 24/7 business operations. Instead of raw terminal tabs, agents communicate through a Slack-style channel interface — discussing, delegating, and reporting in plain language. The UI is event-driven, triggering on task completions, budget thresholds, and approval gates, and adapts to user behaviors over time. Agents reference a shared knowledge vault and business roadmap (source of truth so agents never drift off context). Smart agents immediately know what and when each one needs to do — no manual orchestration required. Set a brief, let agents collaborate in dedicated channels, and approve consequential steps before work ships. It is built for founders, builders, and operators who need more capacity without handing over judgment.**
 
 ### Long (one paragraph)
 
-**Fabrica gives founders a practical way to direct specialized agents across
-business and coding work. Assign a clear brief, keep tasks visible, set approval
-gates and budgets, then review real output before it moves forward. Researcher,
-developer, marketer, and analyst agents work in parallel from plain-language
-briefs; isolated worktrees keep parallel code changes separated; checkpoints
-and hard budget stops keep consequential work inside the founder's rules. The
-platform runs locally-first, works with the models customers choose
-(bring-your-own keys, provider-direct inference billing), and never sells AI
-credits, tokens, or agents. It is built for people who want more capacity
-without becoming the coordination bottleneck — or spending their day stitching
-tools, chats, and spreadsheets together.**
+**Fabrica gives founders, builders, and operators one place to manage specialist CLI agents (Claude Code, Codex, Cursor, Devin, Hermes, Pi) across software and continuous business operations (customer support, ecommerce, content pipelines, HR). Instead of raw terminal tabs, agents communicate through a Slack-style channel interface — discussing, delegating, and reporting in plain language. The UI is event-driven, triggering on task completions, budget thresholds, and approval gates, and adapts to user behaviors and operational patterns over time. Agents run in local terminals with direct provider credentials — Fabrica never calls LLMs or resells inference. Agents collaborate in Slack-like channels and reference a central Knowledge Vault and business roadmap (document drop source of truth so agents never drift off context). Smart agents immediately know what and when each one needs to do — no manual orchestration required. Isolated git worktrees protect codebases; and visual approval gates with hard budget stops keep consequential actions under human authority. It is built for people who want more throughput without becoming the coordination bottleneck.**
+
 
 ---
 
@@ -181,18 +172,18 @@ hands. [They] are based in [location].
 | Backed by / funding | Not disclosed (early stage) |
 | Location | [HQ location — to be confirmed] |
 | Parent organization | Auto-Scalers |
-| Product category | Agentic development environment (ADE) — a command center for directed agent work |
+| Product category | Agentic development environment (ADE) — a desktop platform with Slack-style channel interface for directed agent work |
 | Launch status | Early access / launch preparation |
 | Desktop app | Fabrica-app (desktop) |
 | Landing page | Fabrica-web |
-| Pricing | Solo Builder (free), Pro Studio, Agency & Team — paid price to be finalized |
-| Product pillars | Multi-agent crews, isolated worktrees, continuous/daemon work, approval gates, budget controls, local-first execution, mobile oversight |
+| Pricing | Power User, One-Person Company, Agency & Teams — paid price to be finalized; 14-day free trial on all tiers |
+| Product pillars | Slack-style channel interface, event-driven & adaptive UI, multi-agent crews, isolated worktrees, continuous/daemon work, approval gates, budget controls, local-first execution, mobile oversight |
 
 **Key facts to keep straight when writing about Fabrica:**
 
 - **Founded 2026.** Fabrica is a new entrant building its proof base in the open.
 - **Auto-Scalers.** The operating group behind Fabrica's development.
-- **Local-first.** The command center runs on the customer's machine; work and
+- **Local-first.** The desktop platform runs on the customer's machine; work and
   credentials stay local and customer-controlled, with client-side credential
   storage. Cloud or remote execution is available where supported.
 - **BYOK (bring your own keys).** Customers supply their own model keys and pay
@@ -217,7 +208,7 @@ Molten Orange focal point per image, and keep the lower-right corner clear for
 platform overlays. Never include fabricated metrics, fake testimonials, or
 unreadable microtext.
 
-### 5.1 App UI — command center (hero shot)
+### 5.1 App UI — Slack-style channel interface (hero shot)
 
 **Purpose:** First impression; the "single place to direct the work" frame.
 
@@ -231,7 +222,7 @@ unreadable microtext.
   fake numbers or avatars; a task like "Market research — APAC launch" reads as
   a real, generic brief.
 - Top bar shows the Fabrica wordmark in Steel Light on Forge Dark.
-- **Caption option:** "One command center for research, build, marketing, and
+- **Caption option:** "One Slack-style channel interface for research, build, marketing, and
   analysis work — visible, reviewed, under control."
 
 ### 5.2 Agent orchestration — parallel crews in action

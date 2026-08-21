@@ -47,18 +47,19 @@ LinkedIn, YouTube, and Instagram mirror these pillars at lower cadence; X is whe
 
 ---
 
-## 2. Week 1 — The Problem & The Command Center (pre-launch)
+## 2. Week 1 — The Problem & The Platform (pre-launch)
 
-**Theme:** Name the bottleneck. Introduce the command center metaphor. Invite early access.
+**Theme:** Name the bottleneck. Introduce the CLI agent management platform. Invite early access.
 
 ### Monday — Product Update (X · LinkedIn)
-- **Topic:** Introducing Fabrica — a command center for founders directing agent work.
+- **Topic:** Introducing Fabrica — the desktop platform that manages Claude Code, Cursor, Devin & CLI agents with a Slack-style channel interface.
 - **Hook (X):**
   > You're still the bottleneck between a brief and a result.
-  > Fabrica is the command center for founders who want work to move — with approval gates and budgets that keep the call with you.
+  > Fabrica is the desktop platform to manage your CLI agents — no raw terminal tabs, just Slack-style channels where agents discuss, delegate, and report. Event-driven UI triggers on completions, budgets, and approval gates. Smart agents know what to do and when — you don't orchestrate manually. The interface adapts to how you work.
   > Early access opens now.
-- **Hook (LinkedIn):** Long-form repurpose: the 10-word pitch, the gap ("AI can do a task" ≠ "I can run my business on it"), and a plain-language CTA.
-- **Asset:** Forge Dark hero card, one Molten Orange CTA ("See the command center"), Steel Gray metadata line.
+- **Hook (LinkedIn):** Long-form repurpose: the 10-word pitch (*"Fabrica runs your AI agents. You keep the control."*), the gap ("AI can do a task" ≠ "I can run my business on it"), and a plain-language CTA.
+- **Visual:** Product screenshot on Forge Dark showing Slack-style channel interface with Forge Pulse animation.
+- **Pillar:** Product Update
 
 ### Tuesday — Thread (X · repurpose for YouTube)
 - **Topic:** "Why 'autonomous' is not the same as 'accountable'."
@@ -74,7 +75,7 @@ LinkedIn, YouTube, and Instagram mirror these pillars at lower cadence; X is whe
 - **Hook (X):**
   > I kept hiring my own time instead of the work.
   > Research here, code there, a spreadsheet for the rest — and me in the middle of all of it.
-  > So I built a command center. Here's the honest version of why. 🧵
+  > So I built a desktop platform with Slack-style channels for CLI agents. Here's the honest version of why. 🧵
 - **Hook (LinkedIn):** Founder voice, "learning in public" tone: the specific moment of realization, the Orca lineage treated plainly, and what early access is and is not yet.
 - **Beats (thread):** the struggle → the insight → the build → the early failures → what we're measuring next (no invented numbers).
 - **YouTube:** "Why I built Fabrica" (founder story, ~3 min).
@@ -110,7 +111,7 @@ LinkedIn, YouTube, and Instagram mirror these pillars at lower cadence; X is whe
 - **Topic:** Isolated worktrees — parallel code work that doesn't collide.
 - **Hook (X):**
   > Two agents changing the same repo is a merge headache wearing a trench coat.
-  > Fabrica runs each job in its own worktree. Parallel work, zero collisions, review before merge.
+  > Fabrica runs each job in its own worktree. Slack-style channels keep you updated. Event-driven triggers handle the rest. Parallel work, zero collisions, review before merge.
 - **Hook (LinkedIn):** Non-technical framing — "your crew members no longer fight over the same desk; each gets their own workspace, and you still see every change."
 
 ### Tuesday — Thread (X)
@@ -201,8 +202,8 @@ LinkedIn, YouTube, and Instagram mirror these pillars at lower cadence; X is whe
 ### Monday — Product Update (X · LinkedIn · YouTube)
 - **Topic:** Launch / early access open.
 - **Hook (X):**
-  > Today, founders get a command center.
-  > Brief a researcher, a developer, a marketer, or an analyst. See the work. Approve the moves. Keep the budget.
+  > Today, founders get a desktop platform with Slack-style channels.
+  > Brief a researcher, a developer, a marketer, or an analyst. See the work in Slack-style channels. Approve the moves. Keep the budget. Smart agents know what to do and when — you don't orchestrate manually. The interface adapts to how you work.
   > Fabrica early access is open. 🔗
 - **LinkedIn:** Launch post — 30-word pitch, what early access includes, and the candid caveat ("integrations are still expanding; we'll say so plainly").
 - **YouTube:** "Fabrica in 3 minutes" (product tour).
@@ -236,11 +237,11 @@ LinkedIn, YouTube, and Instagram mirror these pillars at lower cadence; X is whe
 - **Topic:** "Show us your crew" — launch-week showcase.
 - **Hook (X):**
   > First crew of launch week just landed: research briefed, plan reviewed, run approved, output ready.
-  > Show us your crew. Screenshot your command center and tell us what's running. Best workflow gets pinned. 🔧
+  > Show us your crew. Screenshot your Slack-style channels and tell us what's running. Best workflow gets pinned. 🔧
 
 ### Weekend — Optional (X)
 - **Topic:** Reflective close.
-- **Hook:** "Week one with the command center: same business, more capacity, all the calls still ours. What did you run this weekend?"
+- **Hook:** "Week one with Fabrica's Slack-style channels: same business, more capacity, all the calls still ours. What did you run this weekend?"
 
 ---
 

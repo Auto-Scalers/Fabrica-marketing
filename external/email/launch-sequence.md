@@ -11,32 +11,26 @@
 
 **Subject:** Fabrica is live
 
-**Preheader:** The command center for founders who direct agent work is open.
+**Preheader:** The desktop platform with Slack-style channels for directing agent work is open.
 
 **Body:**
 
 Fabrica is live, and you're in early.
 
-We built Fabrica because we kept watching founders become the bottleneck between
-a brief and a result — work scattered across chats and spreadsheets, output
-showing up without context, and no way to stop a run before it went too far.
+We built Fabrica because we kept watching founders and operators become the bottleneck between
+a brief and a result — work scattered across terminal tabs, chats, and spreadsheets, output
+showing up without context, and no way to inspect diffs or stop a run before it went too far.
 That gap between "AI can do a task" and "I can run my business on it" is the
 whole reason this exists.
 
-Fabrica is a command center, not another autocomplete. You brief a crew of
-specialized agents — a researcher, a developer, a marketer — give each a clear
-scope, and work runs in parallel while you stay in control:
+Fabrica is a desktop platform that manages Claude Code, Cursor, Devin, and your CLI agents across software and 24/7 business operations — with a Slack-style channel interface instead of raw terminal tabs:
 
-- **Direct a crew, not a chat.** Several focused jobs move at once, each in its
-  own isolated workspace.
-- **Approve before it ships.** Set approval gates and budgets on consequential
-  work. You decide what moves and what waits.
-- **See the work, end to end.** Tasks and outputs live in one visible surface —
-  what's running, what's waiting, what needs you.
+- **Manage CLI agents in one place.** Run Claude Code, Cursor, Devin, and others side-by-side in local terminals with your direct provider keys. No raw terminal tabs — agents report through Slack-style channels in plain language.
+- **Agents collaborate in channels.** Agents talk to each other in Slack-like channels to delegate tasks and share a central **Knowledge Vault** and business roadmap (a local document drop folder). The UI is event-driven, triggering on task completions, budget thresholds, and approval gates — and adapts to how you work over time. Smart agents know what to do and when — you don't orchestrate manually.
+- **Build software & run 24/7 operations.** Execute code in isolated git worktrees, or run 24/7 customer support, ecommerce, and content pipelines via our native **n8n plugin**.
+- **Approve before it ships.** Set visual approval gates, diff reviews, and hard budget limits on consequential work.
 
-We're not here to sell magic. Early access means integrations are still
-expanding, and we'll say so plainly. Your job right now: run one real task and
-tell us where it breaks.
+We're not here to sell magic. Early access means integrations are expanding, and we'll say so plainly. Your job right now: run one real task and tell us where it breaks.
 
 **CTA button:** Open Fabrica — `[link]`
 
@@ -55,14 +49,11 @@ tell us where it breaks.
 Five minutes is enough to go from login to your first run. Here's the shortest
 path:
 
-1. **Create a crew.** Pick a starter agent — a research agent, a writer, a
-   developer. Start with one; you can add specialists after your first run.
-2. **Write a one-paragraph brief.** Plain language is fine. Say what the outcome
-   is, what to include, and where the source material lives.
-3. **Review the plan, then approve the run.** Every agent starts with a plan
-   before it executes. This is the checkpoint that keeps you in control.
-4. **Read the output like a diff.** Review what came back before it moves
-   anywhere. Bad result? Edit the brief and rerun. No babysitting, just review.
+1. **Pick your track.** Choose **Builder** (software engineering) or **Runner** (24/7 business operations: support, ecommerce, content).
+2. **Drop your context into the Knowledge Vault.** Drop your project docs or brief folder into the vault — every agent will reference it as shared truth.
+3. **Assign your CLI agent.** Select Claude Code, Cursor, Devin, or another agent and write a plain-language brief. No terminal fluency needed — the Slack-style channel interface handles the rest.
+4. **Review the plan, then approve the run.** Consequential actions pause at the approval gate with a visual diff and cost estimate. You approve with a single click.
+
 
 A tip from us: brief the agent the way you'd brief a new contractor — with
 scope, constraints, and a definition of done. The clearer the brief, the fewer

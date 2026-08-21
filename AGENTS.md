@@ -19,12 +19,18 @@ This is the **Fabrica marketing repo** — launch copy, brand assets, social med
 ## Key Directories
 
 ```
-brand/              — Brand guidelines, logos, color palette
-launch/             — Launch blog post, Product Hunt, HN posts
-social/             — Twitter/X threads, content calendar
-press/              — Press kit, media assets
-email/              — Email sequences, launch emails
-research/           — Competitor analysis, positioning docs
+.Fabrica-marketing-board/ — Task file (single source of truth)
+
+internal/             — Team strategy & planning
+  brand/                — Brand guidelines, positioning statement
+  research/             — Competitor landscape analysis
+  planning/             — Content calendar, thread templates
+
+external/             — Publishable content (sent/published externally)
+  launch/               — Blog post, Product Hunt, Show HN, waitlist page
+  email/                — Launch sequence, nurture sequence
+  press/                — Press kit
+  content/              — Founder story
 ```
 
 ## Task File

@@ -8,7 +8,7 @@
 
 | # | Email | Send | Core message |
 |---|-------|------|--------------|
-| 1 | Welcome | Immediate | Here's your command center. Start with one brief. |
+| 1 | Welcome | Immediate | Here's your Slack-style channel interface. Start with one brief. |
 | 2 | Getting Started | Day 1 | Run your first workflow in under 10 minutes. |
 | 3 | Feature Spotlight | Day 3 | Parallel agents: several jobs moving at once. |
 | 4 | Feature Spotlight | Day 5 | Approval gates: keep the call with you. |
@@ -22,7 +22,7 @@
 
 **Send:** Immediately after Supabase signup confirmation.
 
-**Subject:** Your Fabrica command center is ready
+**Subject:** Your Fabrica platform is ready
 
 **Preview text:** Direct the crew. Keep the call. Here's where to start.
 
@@ -30,16 +30,18 @@
 
 Welcome to Fabrica.
 
-You now have one place to direct specialized agents across business and coding work — and to stay in control of what they do. Assign a clear brief, see what is running, review the plan, and approve the steps that matter.
+You now have a desktop platform to manage your CLI agents (Claude Code, Cursor, Devin, and others) across software engineering and 24/7 business operations — with a Slack-style channel interface instead of raw terminal tabs, visible approval gates, agent collaboration channels, and a shared Knowledge Vault and business roadmap (source of truth so agents never drift). The UI is event-driven and adapts to how you work over time. Smart agents immediately know what and when each one needs to do — no manual orchestration required.
 
-Start simple. Pick one job that keeps landing on your plate — a research brief, a marketing draft, a code task — and give it to a single agent first. You do not need to wire up a full crew on day one.
+Start simple. Pick your track — **Builder** (software engineering in isolated worktrees) or **Runner** (24/7 business operations like customer support triage or content pipelines) — and assign a single brief.
 
 Here is the loop that runs everything:
 
-1. **Brief the agent** in plain language.
-2. **Review the plan** before it runs.
-3. **Approve the run** when it looks right.
-4. **Review the output** and decide what moves next.
+1. **Drop your documents into the Knowledge Vault** and set your business roadmap so agents share context and never drift off track.
+2. **Assign a CLI agent** and provide a brief in plain language. No terminal fluency needed — the Slack-style channel interface handles the rest.
+3. **Review the plan and diffs** before anything consequential runs.
+4. **Approve the run** with one click, or edit the brief.
+
+The UI is event-driven — you get alerts when tasks complete, budgets approach limits, or approval gates open. And it adapts: the more you use Fabrica, the more the interface surfaces the views and controls that matter most to you.
 
 Your business, automated. Your judgment, still in the loop.
 
@@ -63,20 +65,21 @@ Yesterday you got the keys. Today, put the crew to work.
 
 A first workflow takes about five minutes:
 
-1. **Write the brief.** "Research our top three competitors' pricing and summarize changes this quarter." Plain language works.
-2. **Pick the agent.** Start with one specialist — research, marketing, or development.
-3. **Review the plan.** Fabrica will show you the steps before anything runs.
-4. **Approve, then review.** The agent runs, and you get a clear output to check, edit, or rerun.
+1. **Drop your brief or docs into the Knowledge Vault.**
+2. **Select your CLI agent** (Claude Code, Cursor, Devin, Hermes, Pi).
+3. **Review the plan.** Fabrica will show you the proposed steps and cost estimate before execution.
+4. **Approve at the gate.** The agent runs in its local terminal or isolated worktree, and you get a clear output to check, edit, or rerun.
 
-The point of the first run is not a perfect result. It is to feel the loop: brief, review, approve, review output. That loop is the whole system — everything else is a faster version of it.
+The point of the first run is not a perfect result. It is to feel the loop: brief, plan review, approval gate, output review. That loop is the whole system — everything else is a faster, multi-agent version of it.
 
 If you hit a wall, reply to this email. A human on the Fabrica team will answer.
 
 **CTA:** [Button] Run your first workflow
 
-**Secondary link:** [Text] Browse example briefs
+**Secondary link:** [Text] Browse starter packs & workflows
 
 ---
+
 
 ## Email 3 — Feature Spotlight: Parallel agents (Day 3)
 
@@ -141,7 +144,7 @@ Set a gate on a consequential step this week:
 
 **Subject:** Founders are building in public. Join them.
 
-**Preview text:** The command center is a product; the crew is a community.
+**Preview text:** The Slack-style interface is a product; the crew is a community.
 
 **Body:**
 
@@ -215,7 +218,7 @@ That is the whole system: brief the crew, review the plan, approve the run, revi
 
 We will be here when you need to scale it further.
 
-**CTA:** [Button] Open your command center
+**CTA:** [Button] Open your Slack-style channels
 
 **Secondary link:** [Text] Advanced workflow examples
 

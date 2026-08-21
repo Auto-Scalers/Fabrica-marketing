@@ -7,15 +7,39 @@
 
 ## 1. Brand at a glance
 
-Fabrica is the command center for founders who want useful work to move without
-becoming the bottleneck. It gives people a way to direct specialized agents,
-keep work visible, and retain control through approval gates, budgets, and
-clear outputs.
+Fabrica is a desktop platform that manages CLI agents — Claude Code, Codex,
+OpenCode, Cursor, Devin, and others — through local terminals. Founders and
+operators set the brief; Fabrica spawns the right agents, routes work across
+parallel sessions, gates consequential steps behind human approval, and caps
+spend at a hard limit. Agents collaborate with each other in dedicated channels,
+share knowledge from a central document vault, and can run operations
+continuously — customer support, content pipelines, ecommerce management — not
+only build software.
 
-The brand should feel like a modern workshop: precise, warm, and in motion.
-Use the forge/foundry metaphor to communicate craft and momentum; use the
-command-center metaphor to communicate control. Neither should become costume
-or science fiction.
+### Business-first UI
+
+Fabrica transforms the raw CLI terminal experience into a Slack-style
+conversation interface. Instead of juggling terminal tabs and raw command output,
+founders and operators interact with agents through dedicated channels — each
+channel is a workspace where agents discuss approaches, delegate sub-tasks, and
+report progress in plain language. The interface is agentic and event-driven:
+work happens in response to events (a task completing, a budget threshold
+approaching, an approval gate opening), not through manual polling or tab
+switching.
+
+Over time, the UI adapts. It learns from user behaviors, preferences, and
+operational patterns to surface the most relevant views, surface priority alerts,
+and surface the controls that matter most. The more a founder uses Fabrica, the
+more the interface reflects how they actually work — not a one-size-fits-all
+layout, but a living system that gets more personalized and more useful with
+every run.
+
+### Brand feel
+
+The brand should feel like a modern operating floor: precise, alive, and in
+motion. Use the forge/foundry metaphor to communicate craft and momentum; use
+the platform metaphor to communicate coordination at scale. Neither should
+become costume or science fiction.
 
 | We are | We are not |
 | --- | --- |
@@ -30,6 +54,7 @@ or science fiction.
 - Technical founders and solo builders who need to ship more than one thing at once.
 - Lean teams that need more capacity without losing review and accountability.
 - Non-technical entrepreneurs who want to direct work in plain language and see what happens next.
+- Operators and business managers who run continuous agent workflows — customer support, ecommerce, content, HR — without necessarily building new software.
 
 ### Brand promise
 
@@ -175,6 +200,17 @@ For social images, start with Forge Dark, a concise claim, a product/workflow
 visual, and one Molten Orange focal point. Keep the lower-right corner clear
 when a platform may add UI overlays.
 
+#### Signature visual element: Forge Pulse
+
+Every major Fabrica touchpoint — product UI, marketing, and social — must
+include the **Forge Pulse**: a subtle animated ring or heat-ripple in Molten
+Orange (`#E8590C`) that appears on any active or running agent card. It
+communicates that something is working — alive and in motion. This is the one
+visual detail a person who uses Fabrica once should always remember. Apply it
+consistently to active-agent states only; never use it on idle, paused, or
+completed cards. Do not over-animate; the pulse should be calm and purposeful,
+not distracting.
+
 ---
 
 ## 3. Voice and tone
@@ -217,9 +253,10 @@ be reviewed prior to execution.” Be concise, but not cold.
 
 Use these words when they accurately describe the product:
 
-**Direct, direct the crew, command center, crew, build, ship, run, review,
-approve, route, visible work, workflow, worktree, guardrail, budget, checkpoint,
-brief, output, momentum, capacity, operating system, founder, builder, control.**
+**Direct, platform, crew, build, ship, run, operate, review, approve, route,
+visible work, workflow, worktree, channel, knowledge vault, guardrail, budget,
+checkpoint, brief, output, momentum, capacity, founder, builder, operator,
+control.**
 
 Use “agent” as a clear functional noun, not as a synonym for magic. Define any
 specialized technical term on first use for non-technical audiences.
@@ -235,7 +272,7 @@ Never use these terms in Fabrica copy:
 Also avoid “seamless,” “effortless,” “magic,” “set it and forget it,” “10x,” and
 "replace your team" unless a carefully qualified, evidence-based context makes
 their use unavoidable. Do not call Fabrica an IDE unless the audience and claim
-are specifically about its coding environment; broadly, it is a command center
+are specifically about its coding environment; broadly, it is a desktop platform with Slack-style channels
 for directed agent work.
 
 ---
@@ -253,36 +290,39 @@ pair it with a clarifier such as: “From doing every task to directing the work
 
 | Length | Copy |
 | --- | --- |
-| 10 words | **Fabrica lets founders direct agent crews and keep control.** |
-| 30 words | **Fabrica is a command center for founders who need work moving in parallel—without losing visibility, approval, or control over what their agents do.** |
-| 60 words | **Fabrica gives founders a practical way to direct specialized agents across business and coding work. Assign a clear brief, keep tasks visible, set approval gates and budgets, then review real output before it moves forward. It is built for people who want more capacity without handing over judgment—or spending their day stitching tools, chats, and spreadsheets together.** |
+| 10 words | **Fabrica runs your AI agents. You keep the control.** |
+| 30 words | **Fabrica is a desktop platform that manages Claude Code, Codex, OpenCode, Cursor, Devin, and other CLI agents across business and coding work — with visible approval gates, budget limits, and 24/7 operations.** |
+| 60 words | **Fabrica gives founders and operators one place to manage specialist CLI agents across any business task — research, building, marketing, customer support, or operations. Set a brief, let agents collaborate in dedicated channels and reference a shared knowledge vault, review the work, approve what matters, and keep hard budget limits in place. Agents run in your terminals, on your machine, with your provider keys — never through Fabrica.** |
 
 ### 4.3 Messaging hierarchy
 
 1. **Primary:** Direct the work; keep the control.
-2. **Outcome:** Increase capacity without becoming the coordination bottleneck.
-3. **Mechanism:** Specialized agents work in parallel from clear briefs, with visible status and isolated workspaces where relevant.
-4. **Guardrails:** Approval gates, budget limits, and review points keep the founder in charge.
-5. **Audience:** Built for founders, solo builders, lean teams, and operators who need the work to move.
+2. **Outcome:** Build more, run more, and grow more — without becoming the coordination bottleneck.
+3. **Mechanism:** Fabrica manages CLI agents (Claude Code, Codex, Cursor, Devin, and others) through local terminals. Agents collaborate in dedicated channels and reference a shared knowledge vault and business roadmap — your document source of truth for the entire operation. Smart agents immediately know what and when each one needs to do; users don't orchestrate manually.
+4. **Guardrails:** Approval gates, hard budget caps, and spend tracking (where the CLI agent exposes it) keep the founder in charge of every consequential action. Agents propose; you approve. Nothing moves past a gate without you.
+5. **Audience:** Built for founders building products and operators running businesses — solo builders, lean teams, project managers, and agencies.
 
 ### 4.4 Value propositions
 
 | Pillar | Claim | Supporting explanation |
 | --- | --- | --- |
-| More capacity | Put several focused jobs in motion at once. | Fabrica helps coordinate parallel work rather than forcing every task through one chat or one person. |
-| Visible control | See what is running, waiting, and ready for review. | Work is organized as tasks and outputs, not buried in scattered conversations. |
-| Safer delegation | Choose where human approval is required. | Use checkpoints and budgets to keep consequential work within your rules. |
-| Better handoffs | Give work a brief, context, and next owner. | The system makes it easier to move from request to reviewed output without context loss. |
-| Built for builders | Keep technical detail available without making every user speak in code. | Fabrica supports real workflows, including isolated worktrees for parallel code work. |
+| More capacity | Run multiple CLI agents in parallel — building and operating at once. | Fabrica manages Claude Code, Codex, Cursor, Devin, and others simultaneously across coding, research, marketing, and ops sessions. |
+| Visible control | See what every agent is doing, waiting on, or ready to hand off. | Work is organized as tasks and agent sessions — not buried in terminal windows or scattered chat logs. |
+| Safer delegation | Set approval gates, budget ceilings, and risk tiers on every consequential action. | Agents propose; you approve. Hard budget stops at your defined limit. No black-box autonomy. |
+| Better handoffs | Context, documents, and briefs travel with the work. | A shared knowledge vault and business roadmap give every agent the same source of truth — no re-explanation between sessions or agents. |
+| Built for builders and operators | Keep deep technical power available while enabling non-technical operators to run continuous workflows. | Fabrica supports isolated coding worktrees for builders and 24/7 runtime operations — customer support, content pipelines, ecommerce management — for operators. |
+
 
 ### 4.5 Message patterns
 
 Use these as starting points, then replace bracketed terms with a real workflow:
 
-- **Problem → turn:** “You are still the bottleneck between [brief] and [result]. Fabrica gives that work a crew, a route, and a review point.”
-- **Control:** “Let [agent/task] move. Keep [approval/budget/decision] with you.”
-- **Workflow:** “Brief [specialist]. Review the plan. Approve the run. Ship the output.”
-- **Proof-led:** “In [workflow], Fabrica shows [observable event] and requires [specific control] before [consequential action].”
+- **Problem → turn:** "You are still the bottleneck between [brief] and [result]. Fabrica gives that work a crew, a route, and a review point."
+- **Control:** "Let [agent/task] move. Keep [approval/budget/decision] with you."
+- **Workflow:** "Brief [specialist]. Review the plan. Approve the run. Ship the output."
+- **Proof-led:** "In [workflow], Fabrica shows [observable event] and requires [specific control] before [consequential action]."
+- **Runtime:** "[Agent] is running [workflow] continuously. [Metric or event] will trigger your next approval."
+- **Platform scope:** "Fabrica manages [Claude Code / Cursor / Devin]. Your provider keys go to [provider] directly — never through Fabrica."
 
 ---
 
@@ -344,7 +384,7 @@ Only publish the metric after it is verified, dated, and owned by the team.
 **Body:** Fabrica helps founders put focused business and coding work in motion,
 then review the decisions that matter.
 
-**CTA:** See the command center
+**CTA:** See the Slack-style interface
 
 ### Product status message
 

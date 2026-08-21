@@ -52,53 +52,49 @@ the problem it kills, and how to get it.
 
 ### Tweet 3 — What it is
 
-> Fabrica is a command center for founders who direct AI agent crews.
+> Fabrica is the desktop platform to manage your CLI agents (Claude Code, Cursor, Devin, Hermes, Pi).
 >
-> Brief a researcher, a developer, a marketer, or an analyst in plain language.
-> Work runs in parallel. Every task stays visible — running, waiting, or ready
-> for your review.
+> No raw terminal tabs — agents talk in Slack-style channels, report in plain language, and the UI adapts to how you work. Event-driven: triggers on completions, budgets, and approval gates. Smart agents know what to do and when — you don't orchestrate manually.
 >
 > Your business, automated. Your judgment, still in the loop.
 
 ### Tweet 4 — How it works
 
-> Give a specialist a brief. See the plan. Approve the run. Ship the output.
+> Agents run in your local terminals with your direct provider keys.
 >
-> No prompt roulette. No work disappearing into a chat log.
->
-> Each task is an object with a status, an owner, and an output — the way work
-> actually works.
+> → Claude Code & Devin build in isolated git worktrees
+> → Agents debate and delegate in dedicated channels
+> → A Knowledge Vault folder gives all agents shared truth
+> → 24/7 daemons run customer support, ecommerce & content via n8n
 
 ### Tweet 5 — Where you keep control
 
-> The part people worry about isn't whether agents can work. It's whether you
-> can stop them.
+> The part people worry about isn't whether agents can work. It's whether you can stop them.
 >
 > Fabrica makes control a default, not a setting:
 >
-> → approval gates hold consequential work until you review it
-> → hard budget limits stop a run before it spends past your line
-> → you bring your own model keys — your spend stays yours
+> → visual approval gates hold consequential work until you review diffs
+> → hard budget limits stop runs before spending past your ceiling
+> → event-driven UI triggers alerts on task completions, budget thresholds, and approval gates — no babysitting terminal windows
+> → adaptive interface learns from your behaviors and surfaces the controls that matter most
 
 ### Tweet 6 — Who it's for
 
-> Built for the people who ship more than one thing at once:
+> Built for both builders and operators:
 >
-> → technical founders juggling product and code
-> → lean teams that need capacity without losing review
-> → non-technical entrepreneurs directing work in plain language
+> → technical founders & developers running parallel worktrees
+> → project managers & operators running 24/7 support, shop & content ops
+> → lean teams & agencies scaling client throughput with strict budget caps
 >
-> If you've felt like the human API for your own company — this is for you.
+> The Slack-style channel interface means no terminal fluency required — agents report in plain language, and the UI adapts to how you work.
 
 ### Tweet 7 — CTA
 
-> Fabrica is in early access. Integrations are still expanding — we'll say so
-> plainly as we go.
+> Fabrica is in early access. Bring your own keys — we never mark up inference.
 >
-> [Link]
+> [https://fabrica-ai.vercel.app]
 >
-> Put one workflow in motion. Review the plan. Approve the run. Tell us where
-> it breaks.
+> Put one workflow in motion. Review the plan. Approve the run. Tell us where it breaks.
 
 **Adapt:** for a feature launch, swap Tweets 3–5 to the new feature: problem →
 what the feature does → the control point you added.
@@ -146,6 +142,9 @@ as the thing you actually run your work on.
 >
 > It runs in parallel with your other work, in its own isolated workspace —
 > so nothing collides with what you're building right now.
+>
+> Agents report through Slack-style channels in plain language. No terminal
+> fluency required.
 
 ### Tweet 5 — Step 3: Review the plan
 
@@ -159,8 +158,8 @@ as the thing you actually run your work on.
 > Step 4: approve the run. Work executes inside the guardrails you set —
 > the budget line and the checkpoints.
 >
-> You're not watching it. You're not micromanaging it. You set the boundaries,
-> and the work moves inside them.
+> The UI is event-driven: you get alerts when tasks complete, budgets approach
+> limits, or approval gates open. No babysitting terminal windows.
 
 ### Tweet 7 — Step 5: Review the output, then decide
 
@@ -233,7 +232,7 @@ story or leave blanks marked [ ].
 
 ### Tweet 5 — What we started building
 
-> So we started building the thing we wanted: a command center.
+> So we started building the thing we wanted: a desktop platform with Slack-style channels.
 >
 > Brief a specialist. Watch the work move. Approve the consequential steps.
 > Stop it at a budget line. Bring your own models so the spend is yours.
@@ -338,8 +337,13 @@ opinion, not clickbait.
 
 > This is exactly what we're building at Fabrica.
 >
-> A command center where agents run in parallel and founders keep the call:
-> review the plan, approve the run, check the budget line.
+> A desktop platform with a Slack-style channel interface where agents run in
+> parallel and founders keep the call: review the plan, approve the run, check
+> the budget line.
+>
+> Agents reference a shared knowledge vault and business roadmap — source of
+> truth so they never drift off context. Smart agents immediately know what and
+> when each one needs to do. No manual orchestration required.
 >
 > We want useful work to move without you becoming the bottleneck. Not without
 > you being in charge.

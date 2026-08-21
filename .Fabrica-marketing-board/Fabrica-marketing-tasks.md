@@ -1,6 +1,14 @@
 # Fabrica-marketing — Tasks
 
 > Single source of truth for all marketing work. The Roadmap (`.Fabrica-Board/Fabrica-Roadmap.md`) tracks cross-cutting status only — this file owns execution details.
+>
+> **Folder structure:**
+> - `internal/` — brand guidelines, positioning, research, planning docs (team use)
+> - `external/` — publishable content: launch copy, emails, press, founder story
+>
+> **Folder structure:**
+> - `internal/` — brand guidelines, positioning, research, planning docs (team use)
+> - `external/` — publishable content: launch copy, emails, press, founder story
 
 ---
 
@@ -22,9 +30,8 @@
 | Phase 2: Launch Assets | M4-M8, M13 | ✅ DONE |
 | Phase 3: Launch Content | M4, M6, M8 | ✅ DONE |
 | Phase 4: Ongoing Content | M9-M12 | ✅ DONE |
-| Phase 5: Review & Audit | M14-M18 | TODO |
-| Phase 6: Landing Page Enhancement | M19-M26 | TODO |
-| Phase 7: Social Launch Campaign | M27-M35 | TODO |
+| Phase 5: Review & Audit | M14-M18 | ✅ DONE (internal files reviewed; external files review pending) |
+| Phase 6: Social Launch Campaign | M24-M32 | TODO |
 
 ---
 
@@ -682,54 +689,47 @@
 
 ## Phase 5: Review & Audit
 
-> Review all marketing work from Phases 1-4, audit for consistency, fix gaps.
+> Review all marketing work from Phases 1-4, audit for consistency, fix gaps. Internal files (brand guidelines, positioning statement, competitor landscape) reviewed and updated. External files (launch copy, emails, press, founder story) review pending.
 
 | #   | Task | Status | Notes |
 | --- | ---- | ------ | ----- |
-| M14 | Brand consistency audit across all M1-M13 deliverables | **TODO** | Verify voice, tone, colors, messaging align across all docs and assets |
-| M15 | Visual asset review — check all generated images (PH gallery, social, OG) | **TODO** | Verify dimensions, brand compliance, no human faces, quality |
-| M16 | Copy audit — proofread all launch copy, emails, social posts | **TODO** | Fix typos, tighten messaging, ensure brand voice consistency |
-| M17 | Competitor positioning refresh — update M2 if market shifted | **TODO** | Re-check top 5 competitors for any changes since M2 was written |
-| M18 | Final sign-off — PM approves all marketing materials for launch | **TODO** | Block no-go until all fixes from M14-M17 are resolved |
+| M14 | Brand consistency audit across all M1-M13 deliverables | **DONE** | Internal files reviewed and updated |
+| M15 | Visual asset review — check all generated images (PH gallery, social, OG) | **TODO** | Pending |
+| M16 | Copy audit — proofread all launch copy, emails, social posts | **TODO** | Pending (external files) |
+| M17 | Competitor positioning refresh — update M2 if market shifted | **DONE** | Updated with new pricing tiers and smart agents concepts |
+| M18 | Final sign-off — PM approves all marketing materials for launch | **TODO** | Pending |
 
 **Exit Criteria:** All M1-M13 deliverables are polished, consistent, and launch-ready.
 
 ---
 
-## Phase 6: Landing Page Enhancement
+## ~~Phase 6: Landing Page Copy & Messaging~~ → Moved to Fabrica-web
 
-> Enhance Fabrica-web landing page using insights from marketing materials.
-
-| #   | Task | Status | Notes |
-| --- | ---- | ------ | ----- |
-| M19 | Update hero section with final positioning from M3 | **TODO** | Pull exact tagline, elevator pitch, value props from positioning statement |
-| M20 | Integrate competitor differentiation into landing page | **TODO** | Add "Why Fabrica" section using M2 insights (vs Cursor/Copilot/etc) |
-| M21 | Add social proof section — waitlist count, testimonials | **TODO** | Dynamic counter, pull quotes from founder story (M11) |
-| M22 | Embed PH gallery images into landing page feature section | **TODO** | Use 4 gallery images (parallel-agents, approval-gates, worktrees, dashboard) |
-| M23 | Add founder quote / origin story snippet | **TODO** | Pull from M11 founder story — humanize the page |
-| M24 | Update email capture CTA with M13 waitlist copy | **TODO** | Ensure CTA matches waitlist page messaging |
-| M25 | Mobile responsiveness audit | **TODO** | Verify all new sections work on mobile |
-| M26 | SEO meta tags — update title, description, OG tags | **TODO** | Align with M3 positioning and M5 PH copy |
-
-**Exit Criteria:** Landing page reflects all marketing positioning, uses brand assets, converts visitors to waitlist signups.
+> **REMOVED from marketing.** Landing page copy and messaging is now a Fabrica-web task. The web team must use the 3 internal files from `Fabrica-marketing/internal/` — every line, every word — to extremely enhance the landing page:
+> 
+> - `Fabrica-marketing/internal/brand/brand-guidelines.md` — voice, tone, visual identity, word bank, blacklist
+> - `Fabrica-marketing/internal/brand/positioning-statement.md` — positioning, key differentiators, messaging hierarchy
+> - `Fabrica-marketing/internal/research/competitor-landscape.md` — competitor insights, positioning opportunities, proof points
+>
+> **Every element of the landing page must be derived from these 3 files.** No copy should exist that doesn't align with the brand guidelines, positioning statement, and competitor landscape.
 
 ---
 
-## Phase 7: Social Launch Campaign
+## Phase 6: Social Launch Campaign
 
 > Execute social media posting strategy to acquire early access customers.
 
 | #   | Task | Status | Notes |
 | --- | ---- | ------ | ----- |
-| M27 | Schedule Week 1 posts from M9 content calendar | **TODO** | Load content calendar into scheduling tool (Buffer/Later/etc) |
-| M28 | Prepare launch day thread (M10 template) | **TODO** | Draft actual launch thread using product launch template |
-| M29 | Set up Twitter/X analytics tracking | **TODO** | Track impressions, engagement, link clicks, follower growth |
-| M30 | Prepare Product Hunt launch day social blitz | **TODO** | Draft PH launch thread, first comment, hunter outreach DMs |
-| M31 | Schedule HN "Show HN" post (M6) | **TODO** | Time for Tuesday-Thursday, 12:01 AM PT |
-| M32 | Prepare LinkedIn launch post (founder story version) | **TODO** | Use M11 LinkedIn version, professional tone |
-| M33 | Set up waitlist conversion tracking (UTM params) | **TODO** | UTM codes for each channel: twitter, linkedin, hn, ph |
-| M34 | Week 1 daily monitoring — respond to all comments/mentions | **TODO** | Active engagement, answer questions, thank supporters |
-| M35 | Week 1 metrics report — impressions, signups, engagement | **TODO** | Track what's working, adjust Week 2 strategy |
+| M24 | Schedule Week 1 posts from M9 content calendar | **TODO** | Load content calendar into scheduling tool (Buffer/Later/etc) |
+| M25 | Prepare launch day thread (M10 template) | **TODO** | Draft actual launch thread using product launch template |
+| M26 | Set up Twitter/X analytics tracking | **TODO** | Track impressions, engagement, link clicks, follower growth |
+| M27 | Prepare Product Hunt launch day social blitz | **TODO** | Draft PH launch thread, first comment, hunter outreach DMs |
+| M28 | Schedule HN "Show HN" post (M6) | **TODO** | Time for Tuesday-Thursday, 12:01 AM PT |
+| M29 | Prepare LinkedIn launch post (founder story version) | **TODO** | Use M11 LinkedIn version, professional tone |
+| M30 | Set up waitlist conversion tracking (UTM params) | **TODO** | UTM codes for each channel: twitter, linkedin, hn, ph |
+| M31 | Week 1 daily monitoring — respond to all comments/mentions | **TODO** | Active engagement, answer questions, thank supporters |
+| M32 | Week 1 metrics report — impressions, signups, engagement | **TODO** | Track what's working, adjust Week 2 strategy |
 
 **Exit Criteria:** Launch week executed, early access signups flowing, metrics tracked, community engaged.
 
