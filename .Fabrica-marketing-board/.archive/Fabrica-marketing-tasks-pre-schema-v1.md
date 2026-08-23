@@ -1,60 +1,24 @@
 # Fabrica-marketing — Tasks
 
-> Single source of truth for all marketing work. The Roadmap (`.Fabrica-Board/Fabrica-Roadmap.md`) tracks cross-cutting status only — this file owns execution details. Schema: `.Fabrica-board/Fabrica-Schema.md`.
+> Single source of truth for all marketing work. The Roadmap (`.Fabrica-Board/Fabrica-Roadmap.md`) tracks cross-cutting status only — this file owns execution details.
+>
+> **Folder structure:**
+> - `internal/` — brand guidelines, positioning, research, planning docs (team use)
+> - `external/` — publishable content: launch copy, emails, press, founder story
 >
 > **Folder structure:**
 > - `internal/` — brand guidelines, positioning, research, planning docs (team use)
 > - `external/` — publishable content: launch copy, emails, press, founder story
 
-## High-Level Goals
-
-> WHAT THIS PROJECT IS FOR — read this before any task:
-
-1. **One voice, everywhere.** All marketing derives from the internal brand files; nothing publishes that contradicts brand guidelines or the blacklist.
-2. **Beta-launch arsenal ready.** Blog post, PH listing, Show HN, press kit, emails — reviewed and signed off (Phase 5 exit) before Roadmap Phase B.
-3. **Daily publishing engine.** After Beta: social campaign (Phase 6) runs continuously, aligned with the product vision and later with the Atlas-project narrative.
-4. **Honest growth.** Metrics tracked per channel; claims match what the product actually does.
-
 ---
 
-## Rollup
+## Status Legend
 
-| Metric | Value |
-|---|---|
-| Total tasks | 27 |
-| ✅ DONE | 15 |
-| 🔶 IN_PROGRESS | 0 |
-| 👀 VERIFY | 0 |
-| ⬜ TODO | 12 |
-| 🚫 BLOCKED | 0 |
-| ❌ CANCELLED | 0 |
-| Completion | 56% |
-
-_Last recount: 2026-08-23_
-
----
-
-## Parallelism & Anti-Overlap Policy
-
-> This project runs REAL 24/7 multi-terminal orchestration. Parallelism is the
-> default: unlimited tokens, multi-terminal app, massive project, close deadline.
-
-- **Minimum fleet:** the orchestrator keeps AT LEAST 3 active worker terminals at
-  all times. Fewer than 3 on resume or cycle end => launching more comes FIRST,
-  chosen from the highest-priority TODO/VERIFY tasks in this file, focused on
-  high-level goals and principles, not micro-edits.
-- **One task = one worker:** claim a task by setting its status IN_PROGRESS and
-  recording your terminal handle in the Session Ledger BEFORE starting. Claimed
-  tasks are forbidden to everyone else.
-- **One folder = one orchestrator:** never work another slot's folder.
-- **One file = one writer:** two live workers never edit the same file; such tasks
-  run sequentially.
-- **Claim-before-work:** confirm your Task ID is still unclaimed before executing;
-  if done or claimed, stop and report instead of duplicating.
-- **Cross-project dependencies:** record them as notes in the OTHER project's task
-  file; never edit another project directly.
-- **Quality bar unchanged under deadline pressure:** no DONE without verified
-  evidence; status change and Rollup update happen in the same edit.
+- **VERIFY** — implemented, needs verification
+- **DONE** — implemented and verified
+- **PARTIAL** — partially implemented
+- **TODO** — planned, not started
+- **BLOCKED** — waiting on dependency
 
 ---
 
@@ -62,211 +26,65 @@ _Last recount: 2026-08-23_
 
 | Phase | Tasks | Status |
 |-------|-------|--------|
-| Phase 1: Foundation | MKT-M1–MKT-M3 | ✅ DONE |
-| Phase 2: Launch Assets | MKT-M4–MKT-M8, MKT-M13 | ✅ DONE |
-| Phase 3: Launch Content | MKT-M4, MKT-M6, MKT-M8 | ✅ DONE |
-| Phase 4: Ongoing Content | MKT-M9–MKT-M12 | ✅ DONE |
-| Phase 5: Review & Audit | MKT-M14–MKT-M18 | 🔶 IN_PROGRESS (internal files reviewed; external files review pending) |
-| Phase 6: Social Launch Campaign | MKT-M24–MKT-M32 | ⬜ TODO |
+| Phase 1: Foundation | M1-M3 | ✅ DONE |
+| Phase 2: Launch Assets | M4-M8, M13 | ✅ DONE |
+| Phase 3: Launch Content | M4, M6, M8 | ✅ DONE |
+| Phase 4: Ongoing Content | M9-M12 | ✅ DONE |
+| Phase 5: Review & Audit | M14-M18 | ✅ DONE (internal files reviewed; external files review pending) |
+| Phase 6: Social Launch Campaign | M24-M32 | TODO |
 
 ---
 
-## Phase 1 — Brand & Positioning
+## Brand &amp; Positioning
 
-> WHAT THIS GROUP DOES:
-> - Defines Fabrica's visual identity, voice, messaging framework, and market positioning.
->
-> WHAT THIS GROUP DOES NOT DO:
-> - Produces publishable launch copy (see Phase 2/3).
+| #   | Task                                            | Status | Notes                                                                                                                                                                       |
+| --- | ----------------------------------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| M1  | Finalize brand guidelines (voice, tone, visual) | **DONE** | Forge/foundry metaphor, "The Next AI Exit". 'lets see the brand guidlined of .backup/orca/ and _sources/buzz/ , mybe we can get inspired by them to enhnace our guidlines.' |
+| M2  | Competitor landscape doc                        | **DONE** |                                                                                                                                                                             |
+| M3  | positioning statement / one-pager               | **DONE** | Depends on M2                                                                                                                                                                             |
 
-| #   | Task                                            | Status | Notes |
-| --- | ----------------------------------------------- | ------ | ----- |
-| MKT-M1  | Finalize brand guidelines (voice, tone, visual) | DONE | Forge/foundry metaphor, "The Next AI Exit". Review the brand guidelines of `.backup/orca/` and `_sources/buzz/` — maybe we can get inspired by them to enhance our guidelines. |
-| MKT-M2  | Competitor landscape doc                        | DONE | |
-| MKT-M3  | positioning statement / one-pager               | DONE | Depends on MKT-M2 |
 
 ---
 
-## Phase 2 — Launch Materials
-
-> WHAT THIS GROUP DOES:
-> - Prepares all launch-day assets: blog post, Product Hunt, Show HN, press kit, email sequence.
->
-> WHAT THIS GROUP DOES NOT DO:
-> - Ongoing social posting (see Phase 6).
+## Launch Materials
 
 | #   | Task                                        | Status | Notes |
 | --- | ------------------------------------------- | ------ | ----- |
-| MKT-M4  | Launch blog post                            | DONE | |
-| MKT-M5  | Product Hunt listing copy + assets          | DONE | |
-| MKT-M6  | Hacker News "Show HN" post                  | DONE | |
-| MKT-M7  | Press kit (logo, screenshots, descriptions) | DONE | |
-| MKT-M8  | Email launch sequence                       | DONE | |
+| M4  | Launch blog post                            | **DONE** |       |
+| M5  | Product Hunt listing copy + assets          | **DONE** |       |
+| M6  | Hacker News "Show HN" post                  | **DONE** |       |
+| M7  | Press kit (logo, screenshots, descriptions) | **DONE** |       |
+| M8  | Email launch sequence                       | **DONE** |       |
+
 
 ---
 
-## Phase 4 — Content
-
-> WHAT THIS GROUP DOES:
-> - Ongoing content: social calendar, thread templates, founder story.
->
-> WHAT THIS GROUP DOES NOT DO:
-> - One-off launch-day assets (see Phase 2).
+## Content
 
 | #   | Task                          | Status | Notes |
 | --- | ----------------------------- | ------ | ----- |
-| MKT-M9  | Social media content calendar | DONE | 4-week calendar; pillars 30/30/20/20; weekly rhythm; draft hooks per post |
-| MKT-M10 | Twitter/X thread templates    | DONE | |
-| MKT-M11 | Founder story / origin post   | DONE | |
+| M9  | Social media content calendar | **DONE** | 4-week calendar; pillars 30/30/20/20; weekly rhythm; draft hooks per post |
+| M10 | Twitter/X thread templates    | **DONE** |       |
+| M11 | Founder story / origin post   | **DONE** |       |
+
 
 ---
 
-## Phase 4 — Early Access
+## Early Access
 
-> WHAT THIS GROUP DOES:
-> - Nurture emails and waitlist capture for early access users.
->
-> WHAT THIS GROUP DOES NOT DO:
-> - Launch announcement emails (see MKT-M8).
+| #   | Task                        | Status | Notes                        |
+| --- | --------------------------- | ------ | ---------------------------- |
+| M12 | Early access nurture emails   | **DONE** | Triggered by Supabase signup |
+| M13 | Waitlist page copy          | **DONE** |                              |
 
-| #   | Task                        | Status | Notes |
-| --- | --------------------------- | ------ | ----- |
-| MKT-M12 | Early access nurture emails | DONE | Triggered by Supabase signup |
-| MKT-M13 | Waitlist page copy          | DONE | |
-
----
-
-## Phase 5 — Review & Audit
-
-> WHAT THIS GROUP DOES:
-> - Reviews all marketing work from Phases 1-4, audits for consistency, fixes gaps.
->
-> WHAT THIS GROUP DOES NOT DO:
-> - Creates new marketing assets.
-
-| #   | Task | Status | Notes |
-| --- | ---- | ------ | ----- |
-| MKT-M14 | Brand consistency audit across all MKT-M1–M13 deliverables | DONE | Internal files reviewed and updated |
-| MKT-M15 | Visual asset review — check all generated images (PH gallery, social, OG) | TODO | Pending |
-| MKT-M16 | Copy audit — proofread all launch copy, emails, social posts | TODO | Pending (external files) |
-| MKT-M17 | Competitor positioning refresh — update MKT-M2 if market shifted | DONE | Updated with new pricing tiers and smart agents concepts |
-| MKT-M18 | Final sign-off — PM approves all marketing materials for launch | TODO | Pending |
-
-**Exit Criteria:** All MKT-M1–M13 deliverables are polished, consistent, and launch-ready.
-
----
-
-## ~~Phase 6: Landing Page Copy & Messaging~~ → Moved to Fabrica-web (CANCELLED)
-
-> **REMOVED from marketing.** Landing page copy and messaging is now a Fabrica-web task. The web team must use the 3 internal files from `Fabrica-marketing/internal/` — every line, every word — to extremely enhance the landing page:
->
-> - `Fabrica-marketing/internal/brand/brand-guidelines.md` — voice, tone, visual identity, word bank, blacklist
-> - `Fabrica-marketing/internal/brand/positioning-statement.md` — positioning, key differentiators, messaging hierarchy
-> - `Fabrica-marketing/internal/research/competitor-landscape.md` — competitor insights, positioning opportunities, proof points
->
-> **Every element of the landing page must be derived from these 3 files.** No copy should exist that doesn't align with the brand guidelines, positioning statement, and competitor landscape.
-
----
-
-## Phase 6 — Social Launch Campaign
-
-> WHAT THIS GROUP DOES:
-> - Executes social media posting strategy to acquire early access customers.
->
-> WHAT THIS GROUP DOES NOT DO:
-> - Creates the underlying content assets (produced in Phases 2-4).
-
-| #   | Task | Status | Notes |
-| --- | ---- | ------ | ----- |
-| MKT-M24 | Schedule Week 1 posts from MKT-M9 content calendar | TODO | Load content calendar into scheduling tool (Buffer/Later/etc) |
-| MKT-M25 | Prepare launch day thread (MKT-M10 template) | TODO | Draft actual launch thread using product launch template |
-| MKT-M26 | Set up Twitter/X analytics tracking | TODO | Track impressions, engagement, link clicks, follower growth |
-| MKT-M27 | Prepare Product Hunt launch day social blitz | TODO | Draft PH launch thread, first comment, hunter outreach DMs |
-| MKT-M28 | Schedule HN "Show HN" post (MKT-M6) | TODO | Time for Tuesday-Thursday, 12:01 AM PT |
-| MKT-M29 | Prepare LinkedIn launch post (founder story version) | TODO | Use MKT-M11 LinkedIn version, professional tone |
-| MKT-M30 | Set up waitlist conversion tracking (UTM params) | TODO | UTM codes for each channel: twitter, linkedin, hn, ph |
-| MKT-M31 | Week 1 daily monitoring — respond to all comments/mentions | TODO | Active engagement, answer questions, thank supporters |
-| MKT-M32 | Week 1 metrics report — impressions, signups, engagement | TODO | Track what's working, adjust Week 2 strategy |
-
-**Exit Criteria:** Launch week executed, early access signups flowing, metrics tracked, community engaged.
-
----
-
-## Checkpoint (Current State)
-
-| Field | Value |
-|---|---|
-| **Current Group** | Phase 5: Review & Audit (external files) → transitioning to Phase 6: Social Launch Campaign |
-| **Current Task** | MKT-M15/MKT-M16 — external-file review pending; Phase 6 tasks not started |
-| **Last Action** | Internal files reviewed and updated (MKT-M14, MKT-M17 done); social campaign plan added |
-| **Next Action** | Complete external reviews (MKT-M15, MKT-M16, then MKT-M18 sign-off), then begin Phase 6 starting with MKT-M24 |
-| **Blockers** | None |
-| **Last Checkpoint** | 2026-08-23 |
-
----
-
-## Autonomous Work System
-
-Resume rules for heartbeat kicks:
-
-1. Read the **Checkpoint (Current State)** table FIRST.
-2. Read the task tables for the current group.
-3. Continue from **Next Action** — never restart completed work.
-4. On any status change, update the Rollup in the same edit.
-5. Workers set finished tasks to VERIFY; the orchestrator promotes VERIFY → DONE after review.
-
----
-
-## Dependencies & Coordination Rules
-
-- **MKT-M1 (Brand Guidelines)** must complete before any copy work
-- **MKT-M13 (Waitlist Page)** needs MKT-M1 for visual/voice consistency
-- **MKT-M4 (Blog Post)** needs MKT-M1, MKT-M3 for messaging
-- **MKT-M5 (Product Hunt)** needs MKT-M1, MKT-M7 for assets
-- **MKT-M8 (Email Sequence)** needs MKT-M1 for voice, MKT-M13 for signup trigger
-- **MKT-M12 (Nurture Emails)** needs MKT-M8 structure, MKT-M12 is downstream
 
 ---
 
 ## What Needs Verification
 
-- [ ] Brand voice defined (forge/foundry, command-center)
-- [ ] Tagline: "The Next AI Exit"
-- [ ] Audience: founders, solo builders, lean teams
-
----
-
-## Session Ledger
-
-> Tracks orchestration sessions and workers for this task file. Updated when sessions are created, released, or worktrees merged.
-
-| Handle | Type | Task ID | Orchestration IDs | Status | Created | Branch | Merged |
-|---|---|---|---|---|---|---|---|
-| `term_f667dbf4-72e5-44c5-87af-d8519f90f3e9` | orchestrator | — | `run_3b44a1aaad42` | IN_PROGRESS | Aug 2026 | `main` (Fabrica-marketing/) | — |
-| `term_c6234eff-8e8e-4989-bb53-b579d014ff32` | worker | MKT-M1: Brand Guidelines | `task_08254a0f2518` / `ctx_9e509509136a` | RELEASED | Aug 2026 | `Fabrica-marketing/` | ✅ |
-| `term_a2a6c267-ff1e-41fe-9b73-f847d37114d1` | worker | MKT-M2: Competitor Landscape | `task_5ed3117c40da` / `ctx_c9472de9a958` | RELEASED | Aug 2026 | `Fabrica-marketing/` | ✅ |
-| `term_5d73f510-7c89-48f7-b785-063bd356bf9c` | worker | MKT-M3: Positioning Statement | `task_d4c069f06304` / `ctx_17e9a610603c` | DEAD | Aug 2026 | `Fabrica-marketing/` | — |
-| `term_88e7b448-5cec-4cd7-b73d-780c478c081b` | worker | MKT-M3: Positioning Statement (codex) | `task_d4c069f06304` / `ctx_17e9a610603c` | RELEASED | Aug 2026 | `Fabrica-marketing/` | ✅ |
-| `term_458a4ed5-0b98-45c2-903a-f7ebdda11bdf` | worker | MKT-M13: Waitlist Page Copy | `task_4df1714317ba` / `ctx_3316db3d58a4` | RELEASED | Aug 2026 | `Fabrica-marketing/` | ✅ |
-| `term_f16fc775-0996-4f33-b683-58dbb9a19a63` | worker | MKT-M7: Press Kit | `task_49eda5bdf49e` / `ctx_3ba2ee282c34` | RELEASED | Aug 2026 | `Fabrica-marketing/` | ✅ |
-| `term_5bcd2023-feb6-4a5a-afc8-897ae73f53b2` | worker | MKT-M5: Product Hunt Listing | `task_ecc2702a27c4` / `ctx_333c505a4956` | RELEASED | Aug 2026 | `Fabrica-marketing/` | ✅ |
-| `term_b2a79188-6054-4c32-9c33-b891aad58747` | worker | MKT-M4: Launch Blog Post | `task_c8ff027635ef` / `ctx_569a73df321d` | IN_PROGRESS | Aug 2026 | `Fabrica-marketing/` | — |
-| `term_8bfda675-6b98-4d23-ad32-1a634eef9cbc` | worker | MKT-M6: Show HN Post | `task_65f7f6aab73a` / `ctx_28857bf3d90a` | IN_PROGRESS | Aug 2026 | `Fabrica-marketing/` | — |
-| `term_c2811c16-5e7e-469a-9ab7-2d69b735c574` | worker | MKT-M8: Email Launch Sequence | `task_84317081e858` / `ctx_41755ec8a39a` | IN_PROGRESS | Aug 2026 | `Fabrica-marketing/` | — |
-| `term_5fda13ac-04dd-4a41-878e-10fd2a79e01c` | worker | MKT-M9: Social Calendar | `task_e533a7685251` / `ctx_4057a1202804` | IN_PROGRESS | Aug 2026 | `Fabrica-marketing/` | — |
-| `term_4d82c2d1-cb80-4476-a24b-5e90c1de1019` | worker | MKT-M10: Twitter Templates | `task_bd4800d3acc7` / `ctx_ad357f4d67e8` | IN_PROGRESS | Aug 2026 | `Fabrica-marketing/` | — |
-| `term_702f2988-c8ba-458b-9f41-4336db43d72c` | worker | MKT-M11: Founder Story | `task_db73b15feb28` / `ctx_01cc7c56291c` | IN_PROGRESS | Aug 2026 | `Fabrica-marketing/` | — |
-| `term_65e1dd67-f898-4056-af5e-e922b24dead8` | worker | MKT-M12: Nurture Emails | `task_7534a49dec11` / `ctx_6b2c2ec2a482` | RELEASED | Aug 2026 | `Fabrica-marketing/` | ✅ |
-| `term_7c3914f9-5e66-4b6a-bb2c-87d12c70aa90` | worker | — : Social Media Assets | — | IN_PROGRESS | Aug 2026 | `Fabrica-marketing/` | — |
-| `term_12b862b0-fa40-49c6-8e2b-9090265aa085` | worker | — : PH Gallery Images | — | IN_PROGRESS | Aug 2026 | `Fabrica-marketing/` | — |
-
-**Rules:**
-
-- Only the main orchestrator creates sessions in this ledger
-- Workers are released after review
-- Worktrees are merged immediately after approval
-- Never leave orphaned sessions
-- Stale handles are pruned to an `.archive` table monthly or when the roadmap master ledger is reconciled
+- [~] Brand voice defined (forge/foundry, command-center)
+- [~] Tagline: "The Next AI Exit"
+- [~] Audience: founders, solo builders, lean teams
 
 ---
 
@@ -274,15 +92,15 @@ Resume rules for heartbeat kicks:
 
 ---
 
-# Appendix — Detailed Plans (MKT-M1–MKT-M13)
+# Detailed Plans — M1-M13
 
 ---
 
-## Group M1: Brand & Positioning
+## Group M1: Brand &amp; Positioning
 
 ---
 
-### MKT-M1: Finalize Brand Guidelines (Voice, Tone, Visual)
+### M1: Finalize Brand Guidelines (Voice, Tone, Visual)
 
 **Objective:** Create a comprehensive brand guidelines document that defines Fabrica's visual identity, voice, and messaging framework.
 
@@ -295,7 +113,7 @@ Resume rules for heartbeat kicks:
   - Color palette (primary: forge-dark, accent: molten-orange, secondary: steel-gray)
   - Typography system (headings: bold/industrial, body: clean/modern)
   - Imagery style (forge/foundry aesthetic, dark backgrounds, warm accents)
-2. **Voice & Tone Guide**
+2. **Voice &amp; Tone Guide**
   - Brand voice characteristics: Direct, commanding, builder-first
   - Tone spectrum by context (marketing vs. support vs. technical docs)
   - Do's and don'ts with examples
@@ -319,7 +137,7 @@ Resume rules for heartbeat kicks:
 
 ---
 
-### MKT-M2: Competitor Landscape Document
+### M2: Competitor Landscape Document
 
 **Objective:** Research and document the competitive landscape for AI developer tools, focusing on positioning opportunities.
 
@@ -328,7 +146,7 @@ Resume rules for heartbeat kicks:
 **Key Deliverables:**
 
 1. **Competitor Matrix**
-  - Direct competitors: traditional IDEs, Business-targeted platforms (the ones that are powered by AI), Manus, Orca, Buss, Agents Orchestration platforms
+  - Direct competitors: traditional IDEs, Bussines-targeted platforms (the ones that are powered by AI), Manus, Orca, Buss, Agents Orcastrations platforms
   - Indirect competitors: Cursor, Windsurf, Replit, GitHub Copilot Workspace, Bolt, Lovable, v0
   - Feature comparison table
   - Pricing comparison (note that we are not providing any AI LLM credits or tokens or AI Agents)
@@ -337,11 +155,11 @@ Resume rules for heartbeat kicks:
   - Gaps in the market Fabrica can exploit
   - Differentiation opportunities
 3. **Market Trends**
-  - AI coding tool adoption trends
+  - AI coding tool adoption trends 
   - Founder/developer pain points not being addressed
-  - Emerging categories (agentic IDE, multi-agent orchestration, business-ai)
+  - Emerging categories (agentic IDE, multi-agent orchestration, bussines-ai)
 4. **SWOT Analysis (Fabrica)**
-  - Strengths:
+  - Strengths: 
   - Weaknesses: New entrant, unknown brand ....
   - Opportunities: Founder-focused positioning ...
   - Threats: ...
@@ -361,7 +179,7 @@ Resume rules for heartbeat kicks:
 
 ---
 
-### MKT-M3: Positioning Statement / One-Pager
+### M3: Positioning Statement / One-Pager
 
 **Objective:** Distill the brand and competitor research into a crisp positioning statement and executive one-pager.
 
@@ -380,8 +198,8 @@ Resume rules for heartbeat kicks:
   - Social proof / traction (if available)
   - Call to action
 3. **Messaging Hierarchy**
-  - Primary message:
-  - Supporting messages:
+  - Primary message: 
+  - Supporting messages: 
   - Proof points for each claim
 
 **Acceptance Criteria:**
@@ -396,7 +214,7 @@ Resume rules for heartbeat kicks:
 
 ---
 
-### MKT-M4: Launch Blog Post
+### M4: Launch Blog Post
 
 **Objective:** Write a compelling launch blog post that introduces Fabrica to the world.
 
@@ -443,7 +261,7 @@ Resume rules for heartbeat kicks:
 
 ---
 
-### MKT-M5: Product Hunt Listing Copy + Assets
+### M5: Product Hunt Listing Copy + Assets
 
 **Objective:** Prepare all assets and copy for a successful Product Hunt launch.
 
@@ -465,7 +283,7 @@ Resume rules for heartbeat kicks:
   - Logo (240x240 for thumbnail)
   - Gallery images (1270x760): 4-6 images showing key features
   - Optional: product demo GIF/video (60s max)
-5. **Topics & Topics**
+5. **Topics &amp; Topics**
   - Primary: Developer Tools, Artificial Intelligence
   - Secondary: Productivity, SaaS
 
@@ -483,7 +301,7 @@ Resume rules for heartbeat kicks:
 
 ---
 
-### MKT-M6: Hacker News "Show HN" Post
+### M6: Hacker News "Show HN" Post
 
 **Objective:** Craft a Show HN post that resonates with the HN community and drives engagement.
 
@@ -519,7 +337,7 @@ Resume rules for heartbeat kicks:
 
 ---
 
-### MKT-M7: Press Kit (Logo, Screenshots, Descriptions)
+### M7: Press Kit (Logo, Screenshots, Descriptions)
 
 **Objective:** Create a comprehensive press kit for media coverage and partnerships.
 
@@ -532,7 +350,7 @@ Resume rules for heartbeat kicks:
   - Logo variations (dark bg, light bg, icon only)
   - Brand colors (hex codes, RGB)
   - Typography (font names, weights)
-2. **Screenshots & Mockups**
+2. **Screenshots &amp; Mockups**
   - App interface (hero shot)
   - Agent orchestration in action
   - Approval gate workflow
@@ -561,7 +379,7 @@ Resume rules for heartbeat kicks:
 
 ---
 
-### MKT-M8: Email Launch Sequence
+### M8: Email Launch Sequence
 
 **Objective:** Design an email sequence for the product launch, from announcement to onboarding.
 
@@ -609,7 +427,7 @@ Resume rules for heartbeat kicks:
 
 ---
 
-### MKT-M9: Social Media Content Calendar
+### M9: Social Media Content Calendar
 
 **Objective:** Plan 4 weeks of social media content across Twitter/X, LinkedIn, and other channels.
 
@@ -654,7 +472,7 @@ Resume rules for heartbeat kicks:
 
 ---
 
-### MKT-M10: Twitter/X Thread Templates
+### M10: Twitter/X Thread Templates
 
 **Objective:** Create reusable thread templates for different content types.
 
@@ -694,7 +512,7 @@ Resume rules for heartbeat kicks:
 
 ---
 
-### MKT-M11: Founder Story / Origin Post
+### M11: Founder Story / Origin Post
 
 **Objective:** Write a compelling founder story that humanizes the brand and connects with the audience.
 
@@ -739,7 +557,7 @@ Resume rules for heartbeat kicks:
 
 ---
 
-### MKT-M12: Early Access Nurture Emails
+### M12: Early Access Nurture Emails
 
 **Objective:** Design an email nurture sequence for early access users from signup to active usage.
 
@@ -791,7 +609,7 @@ Resume rules for heartbeat kicks:
 
 ---
 
-### MKT-M13: Waitlist Page Copy
+### M13: Waitlist Page Copy
 
 **Objective:** Write compelling copy for the waitlist/early access landing page.
 
@@ -838,64 +656,145 @@ Resume rules for heartbeat kicks:
 
 ---
 
-## Implementation Priority
+# Implementation Priority
 
-### Phase 1: Foundation (Weeks 1-2)
+## Phase 1: Foundation (Weeks 1-2)
 
-1. MKT-M1 — Brand Guidelines (everything else depends on this)
-2. MKT-M2 — Competitor Landscape (informs positioning)
-3. MKT-M3 — Positioning Statement (informs all copy)
+1. M1 — Brand Guidelines (everything else depends on this)
+2. M2 — Competitor Landscape (informs positioning)
+3. M3 — Positioning Statement (informs all copy)
 
-### Phase 2: Launch Assets (Weeks 3-4)
+## Phase 2: Launch Assets (Weeks 3-4)
 
-4. MKT-M13 — Waitlist Page Copy (need this early for signups)
-5. MKT-M7 — Press Kit (needed for launch day)
-6. MKT-M5 — Product Hunt Listing (prep ahead of launch)
+4. M13 — Waitlist Page Copy (need this early for signups)
+5. M7 — Press Kit (needed for launch day)
+6. M5 — Product Hunt Listing (prep ahead of launch)
 
-### Phase 3: Launch Content (Week 5)
+## Phase 3: Launch Content (Week 5)
 
-7. MKT-M4 — Launch Blog Post
-8. MKT-M6 — Hacker News Post
-9. MKT-M8 — Email Launch Sequence
+7. M4 — Launch Blog Post
+8. M6 — Hacker News Post
+9. M8 — Email Launch Sequence
 
-### Phase 4: Ongoing Content (Week 6+)
+## Phase 4: Ongoing Content (Week 6+)
 
-10. MKT-M11 — Founder Story
-11. MKT-M9 — Social Media Calendar
-12. MKT-M10 — Twitter Thread Templates
-13. MKT-M12 — Nurture Emails
+10. M11 — Founder Story
+11. M9 — Social Media Calendar
+12. M10 — Twitter Thread Templates
+13. M12 — Nurture Emails
 
 ---
 
-## Implementation Priority — Phase 5: Review & Audit
+# Implementation Priority
+
+## Phase 5: Review & Audit
 
 > Review all marketing work from Phases 1-4, audit for consistency, fix gaps. Internal files (brand guidelines, positioning statement, competitor landscape) reviewed and updated. External files (launch copy, emails, press, founder story) review pending.
 
-See the Phase 5 task table above for MKT-M14–MKT-M18.
+| #   | Task | Status | Notes |
+| --- | ---- | ------ | ----- |
+| M14 | Brand consistency audit across all M1-M13 deliverables | **DONE** | Internal files reviewed and updated |
+| M15 | Visual asset review — check all generated images (PH gallery, social, OG) | **TODO** | Pending |
+| M16 | Copy audit — proofread all launch copy, emails, social posts | **TODO** | Pending (external files) |
+| M17 | Competitor positioning refresh — update M2 if market shifted | **DONE** | Updated with new pricing tiers and smart agents concepts |
+| M18 | Final sign-off — PM approves all marketing materials for launch | **TODO** | Pending |
+
+**Exit Criteria:** All M1-M13 deliverables are polished, consistent, and launch-ready.
 
 ---
 
-## Implementation Priority — Phase 6: Social Launch Campaign
+## ~~Phase 6: Landing Page Copy & Messaging~~ → Moved to Fabrica-web
 
-See the Phase 6: Social Launch Campaign task table above for MKT-M24–MKT-M32.
-
----
-
-# Migration verification
-
-| Check | Result |
-|---|---|
-| Task count in original (`Fabrica-marketing-tasks.md`) | 27 |
-| Task count in v2 (`Fabrica-marketing-tasks.v2.md`) | 27 |
-| Tasks present in old but missing in new | 0 (none) |
-| Tasks present in new but missing in old | 0 (none) |
-| ID prefix applied | All local IDs prefixed `MKT-` (M1 → MKT-M1 ... M32 → MKT-M32) |
-| Legacy status mapping applied | `[~]` → VERIFY-style checkboxes (`- [ ]`) in What Needs Verification; `PARTIAL` not present; bold/free-text statuses normalized to schema enum (DONE/TODO) |
-| Notes preserved | Yes — all Notes carried over; MKT-M1 PM voice-note typo-cleaned with meaning preserved ("lets see the brand guidlined... mybe we can get inspired by them to enhnace our guidlines" → "Review the brand guidelines of `.backup/orca/` and `_sources/buzz/` — maybe we can get inspired by them to enhance our guidelines.") |
-| Discrepancy check result | PASS — zero discrepancies |
-
-_Recount performed: 2026-08-23_
+> **REMOVED from marketing.** Landing page copy and messaging is now a Fabrica-web task. The web team must use the 3 internal files from `Fabrica-marketing/internal/` — every line, every word — to extremely enhance the landing page:
+> 
+> - `Fabrica-marketing/internal/brand/brand-guidelines.md` — voice, tone, visual identity, word bank, blacklist
+> - `Fabrica-marketing/internal/brand/positioning-statement.md` — positioning, key differentiators, messaging hierarchy
+> - `Fabrica-marketing/internal/research/competitor-landscape.md` — competitor insights, positioning opportunities, proof points
+>
+> **Every element of the landing page must be derived from these 3 files.** No copy should exist that doesn't align with the brand guidelines, positioning statement, and competitor landscape.
 
 ---
 
-_Last updated: 2026-08-23_
+## Phase 6: Social Launch Campaign
+
+> Execute social media posting strategy to acquire early access customers.
+
+| #   | Task | Status | Notes |
+| --- | ---- | ------ | ----- |
+| M24 | Schedule Week 1 posts from M9 content calendar | **TODO** | Load content calendar into scheduling tool (Buffer/Later/etc) |
+| M25 | Prepare launch day thread (M10 template) | **TODO** | Draft actual launch thread using product launch template |
+| M26 | Set up Twitter/X analytics tracking | **TODO** | Track impressions, engagement, link clicks, follower growth |
+| M27 | Prepare Product Hunt launch day social blitz | **TODO** | Draft PH launch thread, first comment, hunter outreach DMs |
+| M28 | Schedule HN "Show HN" post (M6) | **TODO** | Time for Tuesday-Thursday, 12:01 AM PT |
+| M29 | Prepare LinkedIn launch post (founder story version) | **TODO** | Use M11 LinkedIn version, professional tone |
+| M30 | Set up waitlist conversion tracking (UTM params) | **TODO** | UTM codes for each channel: twitter, linkedin, hn, ph |
+| M31 | Week 1 daily monitoring — respond to all comments/mentions | **TODO** | Active engagement, answer questions, thank supporters |
+| M32 | Week 1 metrics report — impressions, signups, engagement | **TODO** | Track what's working, adjust Week 2 strategy |
+
+**Exit Criteria:** Launch week executed, early access signups flowing, metrics tracked, community engaged.
+
+---
+
+# Dependencies
+
+- **M1 (Brand Guidelines)** must complete before any copy work
+- **M13 (Waitlist Page)** needs M1 for visual/voice consistency
+- **M4 (Blog Post)** needs M1, M3 for messaging
+- **M5 (Product Hunt)** needs M1, M7 for assets
+- **M8 (Email Sequence)** needs M1 for voice, M13 for signup trigger
+- **M12 (Nurture Emails)** needs M8 structure, M12 is downstream
+
+---
+
+## Session Ledger
+
+> Tracks orchestration sessions and workers for this task file. Updated when sessions are created, released, or worktrees merged.
+
+| Session Handle                              | Type         | Task/Group             | Status     | Created  | Worktree Branch             | Merged |
+| ------------------------------------------- | ------------ | ---------------------- | ---------- | -------- | --------------------------- | ------ |
+| `term_f667dbf4-72e5-44c5-87af-d8519f90f3e9` | orchestrator | marketing-orchestrator | **active** | Aug 2026 | `main` (Fabrica-marketing/) | —      |
+| `term_c6234eff-8e8e-4989-bb53-b579d014ff32` | worker       | M1: Brand Guidelines   | **released** | Aug 2026 | `Fabrica-marketing/`        | ✅      |
+| `term_a2a6c267-ff1e-41fe-9b73-f847d37114d1` | worker       | M2: Competitor Landscape | **released** | Aug 2026 | `Fabrica-marketing/`        | ✅      |
+| `term_5d73f510-7c89-48f7-b785-063bd356bf9c` | worker       | M3: Positioning Statement | **stopped** | Aug 2026 | `Fabrica-marketing/`        | —      |
+| `term_88e7b448-5cec-4cd7-b73d-780c478c081b` | worker       | M3: Positioning Statement (codex) | **released** | Aug 2026 | `Fabrica-marketing/`        | ✅      |
+| `term_458a4ed5-0b98-45c2-903a-f7ebdda11bdf` | worker       | M13: Waitlist Page Copy   | **released** | Aug 2026 | `Fabrica-marketing/`        | ✅      |
+| `term_f16fc775-0996-4f33-b683-58dbb9a19a63` | worker       | M7: Press Kit             | **released** | Aug 2026 | `Fabrica-marketing/`        | ✅      |
+| `term_5bcd2023-feb6-4a5a-afc8-897ae73f53b2` | worker       | M5: Product Hunt Listing  | **released** | Aug 2026 | `Fabrica-marketing/`        | ✅      |
+| `term_b2a79188-6054-4c32-9c33-b891aad58747` | worker       | M4: Launch Blog Post      | **active** | Aug 2026 | `Fabrica-marketing/`        | —      |
+| `term_8bfda675-6b98-4d23-ad32-1a634eef9cbc` | worker       | M6: Show HN Post          | **active** | Aug 2026 | `Fabrica-marketing/`        | —      |
+| `term_c2811c16-5e7e-469a-9ab7-2d69b735c574` | worker       | M8: Email Launch Sequence | **active** | Aug 2026 | `Fabrica-marketing/`        | —      |
+| `term_5fda13ac-04dd-4a41-878e-10fd2a79e01c` | worker       | M9: Social Calendar       | **active** | Aug 2026 | `Fabrica-marketing/`        | —      |
+| `term_4d82c2d1-cb80-4476-a24b-5e90c1de1019` | worker       | M10: Twitter Templates    | **active** | Aug 2026 | `Fabrica-marketing/`        | —      |
+| `term_702f2988-c8ba-458b-9f41-4336db43d72c` | worker       | M11: Founder Story        | **active** | Aug 2026 | `Fabrica-marketing/`        | —      |
+| `term_65e1dd67-f898-4056-af5e-e922b24dead8` | worker       | M12: Nurture Emails       | **released** | Aug 2026 | `Fabrica-marketing/`        | ✅      |
+| `term_7c3914f9-5e66-4b6a-bb2c-87d12c70aa90` | worker       | Social Media Assets       | **active** | Aug 2026 | `Fabrica-marketing/`        | —      |
+| `term_12b862b0-fa40-49c6-8e2b-9090265aa085` | worker       | PH Gallery Images         | **active** | Aug 2026 | `Fabrica-marketing/`        | —      |
+
+**Orchestration IDs:**
+- Run: `run_3b44a1aaad42`
+- M1 Task: `task_08254a0f2518` | Dispatch: `ctx_9e509509136a` | **DONE**
+- M2 Task: `task_5ed3117c40da` | Dispatch: `ctx_c9472de9a958` | **DONE**
+- M3 Task: `task_d4c069f06304` | Dispatch: `ctx_17e9a610603c` | **DONE**
+- M5 Task: `task_ecc2702a27c4` | Dispatch: `ctx_333c505a4956` | **DONE**
+- M7 Task: `task_49eda5bdf49e` | Dispatch: `ctx_3ba2ee282c34` | **DONE**
+- M13 Task: `task_4df1714317ba` | Dispatch: `ctx_3316db3d58a4` | **DONE**
+- M4 Task: `task_c8ff027635ef` | Dispatch: `ctx_569a73df321d` | **IN PROGRESS**
+- M6 Task: `task_65f7f6aab73a` | Dispatch: `ctx_28857bf3d90a` | **IN PROGRESS**
+- M8 Task: `task_84317081e858` | Dispatch: `ctx_41755ec8a39a` | **IN PROGRESS**
+- M9 Task: `task_e533a7685251` | Dispatch: `ctx_4057a1202804` | **IN PROGRESS**
+- M10 Task: `task_bd4800d3acc7` | Dispatch: `ctx_ad357f4d67e8` | **IN PROGRESS**
+- M11 Task: `task_db73b15feb28` | Dispatch: `ctx_01cc7c56291c` | **IN PROGRESS**
+- M12 Task: `task_7534a49dec11` | Dispatch: `ctx_6b2c2ec2a482` | **IN PROGRESS**
+
+
+**Rules:**
+
+- Only the main orchestrator creates sessions in this ledger
+- Workers are released after review
+- Worktrees are merged immediately after approval
+- Never leave orphaned sessions
+
+---
+
+*Plan created: Aug 2026*
+*Updated: Aug 2026*
