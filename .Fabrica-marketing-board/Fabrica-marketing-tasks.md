@@ -242,7 +242,7 @@ Resume rules for heartbeat kicks:
 
 | Handle | Type | Task ID | Orchestration IDs | Status | Created | Branch | Merged |
 |---|---|---|---|---|---|---|---|
-| `term_f667dbf4-72e5-44c5-87af-d8519f90f3e9` | orchestrator | — | `run_3b44a1aaad42` | IN_PROGRESS | Aug 2026 | `main` (Fabrica-marketing/) | — |
+| `term_f667dbf4-72e5-44c5-87af-d8519f90f3e9` | orchestrator | — | `run_3b44a1aaad42` | RELEASED | Aug 2026 | `main` (Fabrica-marketing/) | — |
 | `term_c6234eff-8e8e-4989-bb53-b579d014ff32` | worker | MKT-M1: Brand Guidelines | `task_08254a0f2518` / `ctx_9e509509136a` | RELEASED | Aug 2026 | `Fabrica-marketing/` | ✅ |
 | `term_a2a6c267-ff1e-41fe-9b73-f847d37114d1` | worker | MKT-M2: Competitor Landscape | `task_5ed3117c40da` / `ctx_c9472de9a958` | RELEASED | Aug 2026 | `Fabrica-marketing/` | ✅ |
 | `term_5d73f510-7c89-48f7-b785-063bd356bf9c` | worker | MKT-M3: Positioning Statement | `task_d4c069f06304` / `ctx_17e9a610603c` | DEAD | Aug 2026 | `Fabrica-marketing/` | — |
@@ -250,15 +250,15 @@ Resume rules for heartbeat kicks:
 | `term_458a4ed5-0b98-45c2-903a-f7ebdda11bdf` | worker | MKT-M13: Waitlist Page Copy | `task_4df1714317ba` / `ctx_3316db3d58a4` | RELEASED | Aug 2026 | `Fabrica-marketing/` | ✅ |
 | `term_f16fc775-0996-4f33-b683-58dbb9a19a63` | worker | MKT-M7: Press Kit | `task_49eda5bdf49e` / `ctx_3ba2ee282c34` | RELEASED | Aug 2026 | `Fabrica-marketing/` | ✅ |
 | `term_5bcd2023-feb6-4a5a-afc8-897ae73f53b2` | worker | MKT-M5: Product Hunt Listing | `task_ecc2702a27c4` / `ctx_333c505a4956` | RELEASED | Aug 2026 | `Fabrica-marketing/` | ✅ |
-| `term_b2a79188-6054-4c32-9c33-b891aad58747` | worker | MKT-M4: Launch Blog Post | `task_c8ff027635ef` / `ctx_569a73df321d` | IN_PROGRESS | Aug 2026 | `Fabrica-marketing/` | — |
-| `term_8bfda675-6b98-4d23-ad32-1a634eef9cbc` | worker | MKT-M6: Show HN Post | `task_65f7f6aab73a` / `ctx_28857bf3d90a` | IN_PROGRESS | Aug 2026 | `Fabrica-marketing/` | — |
-| `term_c2811c16-5e7e-469a-9ab7-2d69b735c574` | worker | MKT-M8: Email Launch Sequence | `task_84317081e858` / `ctx_41755ec8a39a` | IN_PROGRESS | Aug 2026 | `Fabrica-marketing/` | — |
-| `term_5fda13ac-04dd-4a41-878e-10fd2a79e01c` | worker | MKT-M9: Social Calendar | `task_e533a7685251` / `ctx_4057a1202804` | IN_PROGRESS | Aug 2026 | `Fabrica-marketing/` | — |
-| `term_4d82c2d1-cb80-4476-a24b-5e90c1de1019` | worker | MKT-M10: Twitter Templates | `task_bd4800d3acc7` / `ctx_ad357f4d67e8` | IN_PROGRESS | Aug 2026 | `Fabrica-marketing/` | — |
-| `term_702f2988-c8ba-458b-9f41-4336db43d72c` | worker | MKT-M11: Founder Story | `task_db73b15feb28` / `ctx_01cc7c56291c` | IN_PROGRESS | Aug 2026 | `Fabrica-marketing/` | — |
+| `term_b2a79188-6054-4c32-9c33-b891aad58747` | worker | MKT-M4: Launch Blog Post | `task_c8ff027635ef` / `ctx_569a73df321d` | RELEASED | Aug 2026 | `Fabrica-marketing/` | ✅ |
+| `term_8bfda675-6b98-4d23-ad32-1a634eef9cbc` | worker | MKT-M6: Show HN Post | `task_65f7f6aab73a` / `ctx_28857bf3d90a` | RELEASED | Aug 2026 | `Fabrica-marketing/` | ✅ |
+| `term_c2811c16-5e7e-469a-9ab7-2d69b735c574` | worker | MKT-M8: Email Launch Sequence | `task_84317081e858` / `ctx_41755ec8a39a` | RELEASED | Aug 2026 | `Fabrica-marketing/` | ✅ |
+| `term_5fda13ac-04dd-4a41-878e-10fd2a79e01c` | worker | MKT-M9: Social Calendar | `task_e533a7685251` / `ctx_4057a1202804` | RELEASED | Aug 2026 | `Fabrica-marketing/` | ✅ |
+| `term_4d82c2d1-cb80-4476-a24b-5e90c1de1019` | worker | MKT-M10: Twitter Templates | `task_bd4800d3acc7` / `ctx_ad357f4d67e8` | RELEASED | Aug 2026 | `Fabrica-marketing/` | ✅ |
+| `term_702f2988-c8ba-458b-9f41-4336db43d72c` | worker | MKT-M11: Founder Story | `task_db73b15feb28` / `ctx_01cc7c56291c` | RELEASED | Aug 2026 | `Fabrica-marketing/` | ✅ |
 | `term_65e1dd67-f898-4056-af5e-e922b24dead8` | worker | MKT-M12: Nurture Emails | `task_7534a49dec11` / `ctx_6b2c2ec2a482` | RELEASED | Aug 2026 | `Fabrica-marketing/` | ✅ |
-| `term_7c3914f9-5e66-4b6a-bb2c-87d12c70aa90` | worker | — : Social Media Assets | — | IN_PROGRESS | Aug 2026 | `Fabrica-marketing/` | — |
-| `term_12b862b0-fa40-49c6-8e2b-9090265aa085` | worker | — : PH Gallery Images | — | IN_PROGRESS | Aug 2026 | `Fabrica-marketing/` | — |
+| `term_7c3914f9-5e66-4b6a-bb2c-87d12c70aa90` | worker | — : Social Media Assets | — | RELEASED | Aug 2026 | `Fabrica-marketing/` | ✅ |
+| `term_12b862b0-fa40-49c6-8e2b-9090265aa085` | worker | — : PH Gallery Images | — | RELEASED | Aug 2026 | `Fabrica-marketing/` | ✅ |
 
 **Rules:**
 
