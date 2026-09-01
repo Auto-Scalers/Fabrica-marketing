@@ -2,19 +2,17 @@
 
 ## What This Folder Is
 
-This is the **Fabrica marketing repo** — launch copy, brand assets, social media, press materials, blog posts, and campaign resources. You are a worker dispatched by the top-level orchestrator to complete a task in this repo.
+Brand guidelines, positioning, and competitor research for Fabrica. You are a worker dispatched by the top-level orchestrator to complete a task in this repo.
 
 ## What You Should Know
 
-- This is a rebrand from Orca to Fabrica
-- Brand voice: technical but accessible, founder-led, anti-hype
-- Target audience: technical founders, small business owners, non-technical entrepreneurs
-- Key message: "Your business, automated"
+- Brand voice: direct, commanding, builder-first
+- Target audience: founders, solo builders, lean teams
+- Key message: "The Next AI Exit"
 
 ## Tech Stack
 
 - Plain Markdown documents (no build step, no framework)
-- Assets: PNG/SVG/JPG images for press kit, social, Product Hunt gallery
 - Everything is reviewable as text — write clean, well-structured Markdown
 
 ## Commands
@@ -22,20 +20,19 @@ This is the **Fabrica marketing repo** — launch copy, brand assets, social med
 No build or test tooling. Before claiming DONE:
 
 - Proofread every deliverable (spelling, brand voice, blacklist terms absent).
-- Verify all links resolve and every claim traces to the internal brand files.
-- Confirm no Orca/Stably leftovers: search `internal/` + `external/` for `orca`/`stablyai` (allowed only in `.backup/`/`_sources/` references).
+- Verify every claim traces to the internal brand files.
+- Confirm no Orca/Stably leftovers: search `internal/` for `orca`/`stablyai`.
 
 ## Definition of Done
 
 A task is DONE only when ALL of these hold:
 
-1. **Deliverable complete:** the copy/asset exists in the correct `internal/` or `external/` folder, follows brand voice and word bank, respects the blacklist.
-2. **No Orca/Stably leftovers** in any published-facing content.
+1. **Deliverable complete:** the file exists in the correct `internal/` folder, follows brand voice, respects the blacklist.
+2. **No Orca/Stably leftovers** in any content.
 3. **Tracking files updated in the same edit:** task status + Rollup recount in `.Fabrica-marketing-board/Fabrica-marketing-tasks.md`, Checkpoint table, Session Ledger row.
 
 ## What You Do NOT Do
 
-- **Do NOT edit** `.backup/` or `_sources/` — frozen reference copies
 - **Do NOT commit or push** — make changes only, orchestrator handles git
 
 ## Key Directories
@@ -43,51 +40,14 @@ A task is DONE only when ALL of these hold:
 ```
 .Fabrica-marketing-board/ — Task file (single source of truth)
 
-internal/             — Team strategy & planning
+internal/
   brand/                — Brand guidelines, positioning statement
   research/             — Competitor landscape analysis
-  planning/             — Content calendar, thread templates
-
-external/             — Publishable content (sent/published externally)
-  launch/               — Blog post, Product Hunt, Show HN, waitlist page
-  email/                — Launch sequence, nurture sequence
-  press/                — Press kit
-  content/              — Founder story
 ```
-
-## Parallelism & Anti-Overlap Policy
-
-> This project runs REAL 24/7 multi-terminal orchestration. Parallelism is the
-> default: unlimited tokens, multi-terminal app, massive project, close deadline.
-
-- **Minimum fleet:** the orchestrator keeps AT LEAST 3 active worker terminals at
-  all times. Fewer than 3 on resume or cycle end => launching more comes FIRST,
-  chosen from the highest-priority TODO/VERIFY tasks in this file, focused on
-  high-level goals and principles, not micro-edits.
-- **One task = one worker:** claim a task by setting its status IN_PROGRESS and
-  recording your terminal handle in the Session Ledger BEFORE starting. Claimed
-  tasks are forbidden to everyone else.
-- **One folder = one orchestrator:** never work another slot's folder.
-- **One file = one writer:** two live workers never edit the same file; such tasks
-  run sequentially.
-- **Claim-before-work:** confirm your Task ID is still unclaimed before executing;
-  if done or claimed, stop and report instead of duplicating.
-- **Cross-project dependencies:** record them as notes in the OTHER project's task
-  file; never edit another project directly.
-- **Quality bar unchanged under deadline pressure:** no DONE without verified
-  evidence; status change and Rollup update happen in the same edit.
 
 ## Task File
 
-Your task file is `.Fabrica-marketing-board/Fabrica-marketing-tasks.md` — the single source of truth for all marketing work. Schema for all tracking edits: `.Fabrica-board/Fabrica-Schema.md` (Tracking Schema v1 — status enum, Rollup, Checkpoint, Session Ledger).
-
-## Resume Protocol
-
-On heartbeat kick or session resume:
-
-1. Read `.Fabrica-board/Heartbeat.md` (if you are the orchestrator slot) and your task file's **Checkpoint (Current State)** table FIRST.
-2. Continue from the **Next Action** cell — never restart completed work; check Status + Notes before dispatching.
-3. Any status change updates the Rollup in the same edit.
+Your task file is `.Fabrica-marketing-board/Fabrica-marketing-tasks.md` — the single source of truth for all marketing work.
 
 ## How to Send Results
 
@@ -101,13 +61,3 @@ If blocked:
 ```bash
 orca orchestration send --type escalation --subject "Blocked" --body "What happened and what's needed" --task-id <task_id> --dispatch-id <dispatch_id> --json
 ```
-
-## Orchestration IDs
-
-Your task file's Session Ledger tracks these IDs for every worker session:
-
-| ID | Format | When You Get It | How to Use It |
-|----|--------|-----------------|---------------|
-| `task_xxx` | `task_` + hex | `task-create --json` → `result.task.id` | Resume a stuck worker: `worker-start --task <task_id> --retry-of <dispatch_id>` |
-| `ctx_xxx` | `ctx_` + hex | `worker-start --json` → `result.dispatchId` | Read worker output: `worker-read --dispatch <ctx_xxx>`. Resume: `--retry-of <ctx_xxx>` |
-| `term_xxx` | `term_` + uuid | `worker-start --json` → `effects[terminal].id` | Send message to worker: `terminal send --terminal <term_xxx>`. Read output: `terminal read --terminal <term_xxx>` |

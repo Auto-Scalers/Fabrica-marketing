@@ -1,32 +1,21 @@
 # Fabrica — Marketing
 
-**"The Next AI Exit" — Business-First, Coding-First Agentic Development Environment (ADE).**
-
-This repo holds Fabrica's marketing assets, copy, launch materials, and campaign resources. It is NOT the landing page (that's `Fabrica-web`) and NOT the desktop app (that's `Fabrica-app`).
+Brand guidelines, positioning, and competitor research for Fabrica.
 
 ## What Goes Here
 
-- Launch copy and positioning documents
-- Social media assets and posts
-- Press kit (logos, screenshots, one-pagers)
-- Email campaigns and sequences
-- Blog posts and articles
-- Product Hunt / Hacker News launch materials
-- Brand guidelines and tone-of-voice docs
-- Competitor analysis and market research
-- Growth experiments and results
+- Brand guidelines (voice, tone, visual identity)
+- Positioning statement and messaging framework
+- Competitor landscape analysis
 
 ## Repo Structure
 
 ```
-brand/              # Logo variants, color refs, typography
-copy/               # Launch copy, taglines, positioning docs
-social/             # Social media assets and post drafts
-press/              # Press kit, one-pagers, media kit
-blog/               # Blog posts (markdown)
-campaigns/          # Email sequences, ad copy, launch plans
-research/           # Competitor analysis, market research
-assets/             # Screenshots, GIFs, demo videos
+internal/
+  brand/              — Brand guidelines, positioning statement
+  research/           — Competitor landscape analysis
+external/             — Publishable content (empty — ready for new work)
+assets/               — Visual assets (empty — ready for new work)
 ```
 
 ## Brand
@@ -43,8 +32,4 @@ assets/             # Screenshots, GIFs, demo videos
 |------|---------|
 | `Auto-Scalers/Fabrica-app` | Desktop app source code |
 | `Auto-Scalers/Fabrica-web` | Landing page (Next.js) |
-| `Auto-Scalers/Fabrica-Marketing` | This repo — marketing assets & copy |
-
-## Status
-
-Early stage — setting up marketing infrastructure for launch.
+| `Auto-Scalers/Fabrica-Marketing` | This repo — brand & positioning |
